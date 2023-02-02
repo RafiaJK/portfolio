@@ -1,18 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
 import Resume from './Resume';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from './Home';
+import About from './About';
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 function App() {
+
+
+
   return (
-    // <BrowserRouter>
+
 
     <div className="App">
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/resume" element={<Resume/>} />
+        <Route exact path="/about" element={<About/>} />
+
+      </Routes>
+      </BrowserRouter>
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-          <p>homepage</p>
+          <p>app page</p>
         </p>
         <a
           className="App-link"
@@ -21,23 +35,16 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
 
-<Router>
-        <Switch>
-          {/* <Route exact path="/">
-          </Route> */}
-          <Route exact path="/resume">
-            <Resume />
-          </Route>
-        </Switch>
-        </Router>
+
+
 
     </div>
     // </BrowserRouter>
   );
-  
+
 }
 
 export default App;
