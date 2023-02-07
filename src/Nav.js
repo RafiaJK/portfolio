@@ -1,6 +1,6 @@
 import './App.css';
 
-function About() {
+function Nav() {
   return (
     <div className="Home">
       <h1>About Rafia</h1>
@@ -14,4 +14,4 @@ function About() {
   );
 }
 
-export default About;
+export default Nav;

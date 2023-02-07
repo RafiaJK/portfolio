@@ -8,9 +8,10 @@ function Resume() {
   return (
     <div className="Resume">
       <h1>Resume</h1>
+
       {/* <a href=" ">Download </a> */}
-      <iframe src={Rafia_Khandaker_Resume} width="100%" height="500px">
-    </iframe>
+      <iframe src={Rafia_Khandaker_Resume} width="100%" height="600px">
+      </iframe>
     </div>
   );
 }

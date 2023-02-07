@@ -22,6 +22,7 @@ function App() {
       </Routes>
       </BrowserRouter>
 
+      <p>Designed & Built by Rafia Khandaker | 2023</p>
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
