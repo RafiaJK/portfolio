@@ -3,7 +3,9 @@ import './App.css';
 import Resume from './Resume';
 import Home from './Home';
 import About from './About';
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Nav from './Nav';
+import Projects from "./Projects";
+import { Route, Routes, BrowserRouter, Link } from "react-router-dom";
 
 function App() {
 
@@ -14,10 +16,12 @@ function App() {
 
     <div className="App">
     <BrowserRouter>
+    <Nav/>
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/resume" element={<Resume/>} />
         <Route exact path="/about" element={<About/>} />
+        <Route exact path="/projects" element={<Projects/>} />
 
       </Routes>
       </BrowserRouter>
@@ -38,10 +42,6 @@ function App() {
           Learn React
         </a> */}
       </header>
-
-
-
-
     </div>
     // </BrowserRouter>
   );
