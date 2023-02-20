@@ -10,6 +10,7 @@ function Resume() {
   return (
     <div className="Resume">
       <h1>Resume</h1>
+      <h3>Experience:</h3>
       <h4>
         <span class="resume-company">
           <a href="https://pch.com">Publishers Clearing House</a>
