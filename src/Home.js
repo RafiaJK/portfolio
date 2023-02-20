@@ -5,7 +5,7 @@ function Home() {
     <div className="Home">
       <h1>Home Page</h1>
       <body>Software Engineer</body>
-      <ul>Full-Stack Skills
+      <ul>Full-Stack
         <li>JavaScript</li>
         <li>React</li>
         <li>Ruby</li>
