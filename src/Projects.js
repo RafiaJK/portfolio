@@ -7,7 +7,7 @@ function Projects() {
             <p> </p>
 
             <h4>
-                <span>Concert Buddy</span> View Code | PLACEHOLDER View Demo
+                <span>Concert Buddy</span> <a href="https://github.com/RafiaJK/concert-buddy">View Code</a> | PLACEHOLDER View Demo
             </h4>
             <h5>
                 View concerts from your favorite artists, add yourself to a list of attendees, and meet fellow concertgoers in New York City.
@@ -19,7 +19,7 @@ function Projects() {
             </h5>
 
             <h4>
-                <span>FiDi Dining Guide</span> View Code | PLACEHOLDER View Demo
+                <span>FiDi Dining Guide</span> <a href="https://github.com/RafiaJK/flatiron-FiDi-Dining">View Code</a> | PLACEHOLDER View Demo
             </h4>
             <h5>
                 Single-page application with searchable listings of restaurants, cafes, and bars in the Financial District, Manhattan.

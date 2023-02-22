@@ -4,6 +4,8 @@ function Home() {
   return (
     <div className="Home">
       <h1>Home Page</h1>
+      <span>hi, my name is</span>
+      <h2>Rafia</h2>
       <body>Software Engineer</body>
       <ul>Full-Stack
         <li>JavaScript</li>

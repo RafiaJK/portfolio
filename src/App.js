@@ -5,14 +5,12 @@ import Home from './Home';
 import About from './About';
 import Nav from './Nav';
 import Projects from "./Projects";
+import Socials from './Socials';
 import { Route, Routes, BrowserRouter, Link } from "react-router-dom";
 
 function App() {
 
-
-
   return (
-
 
     <div className="App">
     <BrowserRouter>
@@ -22,9 +20,11 @@ function App() {
         <Route exact path="/resume" element={<Resume/>} />
         <Route exact path="/about" element={<About/>} />
         <Route exact path="/projects" element={<Projects/>} />
-
+        <Route exact path="/socials" element={<Socials/>} />
       </Routes>
       </BrowserRouter>
+
+    <Socials/>
 
       <p>Designed & Built by Rafia Khandaker | 2023</p>
       <header className="App-header">
@@ -43,7 +43,6 @@ function App() {
         </a> */}
       </header>
     </div>
-    // </BrowserRouter>
   );
 
 }

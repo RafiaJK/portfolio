@@ -10,6 +10,12 @@ function Resume() {
   return (
     <div className="Resume">
       <h1>Resume</h1>
+
+      <button onClick={handleClick}>View Resume PDF | Download</button>
+      {togglePDF ? <iframe src={Rafia_Khandaker_Resume} width="100%" height="450px"></iframe>
+      : <></>
+      }
+
       <h3>Experience:</h3>
       <h4>
         <span class="resume-company">
@@ -33,17 +39,7 @@ function Resume() {
           <li>Launched and tracked 40-70 projects weekly, managing resources across a team of 25-30 creatives and coordinating project tasks and deadlines.</li>
           <li>Onboarded users to workflow management platforms and resolved technical issues.</li>
         </ul>
-
       </h5>
-
-
-      {/* <a href=" ">Download </a> */}
-      {/* add a toggle if they want to view the PDF or not */}
-      {/* otherwise setup a layout similar to this: https://brittanychiang.com/ */}
-      <button onClick={handleClick}>View Resume PDF | Download</button>
-      {togglePDF ? <iframe src={Rafia_Khandaker_Resume} width="100%" height="600px"></iframe>
-      : <></>
-      }
 
     </div>
   );
