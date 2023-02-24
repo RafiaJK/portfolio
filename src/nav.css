@@ -1,0 +1,37 @@
+.navbar{
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(1, 43, 87, 0.8);
+}
+
+.logo {
+
+}
+
+.navlinks{
+}
+
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+.navlinks ul li:not(:last-child) {
+    margin-right: 60px;
+}
+
+.navlinks ul a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #cfc5eb;
+    text-decoration: none;
+  }
+
+  .navlinks ul a.active {
+    color: #574c4c;
+    font-weight: 500;
+    position: relative;
+  }
+
