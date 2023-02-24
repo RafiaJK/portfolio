@@ -1,15 +1,37 @@
 .navbar{
     height: 60px;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     background-color: rgba(1, 43, 87, 0.8);
 }
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
 
 .logo {
 
 }
 
+.menu-icon {
+    display: none;
+  }
+
 .navlinks{
+    /* position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #fef7e5;
+    width: 0;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden; */
 }
 
 .navlinks ul{
@@ -25,7 +47,7 @@
 .navlinks ul a{
     font-size: 16px;
     font-weight: 400;
-    color: #cfc5eb;
+    color: #c6c5eb;
     text-decoration: none;
   }
 
@@ -35,3 +57,38 @@
     position: relative;
   }
 
+  @media (max-width: 768px) {
+    .navlinks ul li:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    .navlinks {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #06202f;
+        width: 0px;
+        height: calc(100vh - 60px);
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+      }
+
+      .navlinks.active {
+        width: 270px;
+      }
+    
+      .navlinks ul {
+        display: flex;
+        flex-direction: column;
+      }
+      .navlinks ul li {
+        margin-right: unset;
+        margin-top: 22px;
+      }
+    }
