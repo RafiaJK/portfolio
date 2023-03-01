@@ -19,7 +19,8 @@ function Nav() {
       </div>
 
       <div className="menu-icon" onClick={toggleNav}>
-          <Link to="/" >logo</Link>
+          <Link to="/">hmbrgr</Link> 
+          {/* add image for hamburger menu */}
       </div>
 
         <div className={`navlinks ${showNav && 'active'}`}>
