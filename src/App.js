@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Resume from './Resume';
 import Home from './Home';
@@ -7,14 +8,31 @@ import Nav from './Nav';
 import Projects from "./Projects";
 import Socials from './Socials';
 import { Route, Routes, BrowserRouter, Link } from "react-router-dom";
+import './darkTheme.css';
 
 function App() {
+
+  const [theme, setTheme] = useState('light')
+
+  const toggleTheme = () => {
+        if (theme === 'light') {
+          setTheme('dark');
+        } else {
+          setTheme('light');
+        }
+  };
+
+    useEffect(() => {
+        document.body.className = theme;
+      }, [theme]);
 
   return (
 
     <div className="App">
+
     <BrowserRouter>
-    <Nav/>
+    <Nav toggleTheme={toggleTheme}/>
+
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/resume" element={<Resume/>} />
@@ -27,21 +45,6 @@ function App() {
     <Socials/>
 
       <p>Designed & Built by Rafia Khandaker | 2023</p>
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <p>app page</p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
     </div>
   );
 

@@ -3,7 +3,7 @@ import './nav.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-function Nav() {
+function Nav({toggleTheme, theme}) {
   const [showNav, setShowNav] = useState(false)
 
   const toggleNav = () => {
@@ -18,8 +18,13 @@ function Nav() {
         <Link to="/" >ADD LOGO/HOME</Link>
       </div>
 
+
+      <div className={`App ${theme}`}>
+      <button onClick={toggleTheme}> ☀️ | 🌙 </button>
+      </div>
+
       <div className="menu-icon" onClick={toggleNav}>
-          <Link to="/">hmbrgr</Link> 
+          <p>hmbrgr</p>
           {/* add image for hamburger menu */}
       </div>
 
