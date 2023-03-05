@@ -3,11 +3,10 @@ import './App.css';
 function Home() {
   return (
     <div className="Home">
-      <h1>Home Page</h1>
-      <span>hi, my name is</span>
+      <h3>hi, my name is</h3>
       <h2>Rafia</h2>
       <body>Software Engineer</body>
-      <ul>Full-Stack
+      <ul>Full-Stack Developer:
         <li>JavaScript</li>
         <li>React</li>
         <li>Ruby</li>

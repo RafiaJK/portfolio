@@ -2,6 +2,7 @@ import './App.css';
 import './nav.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import initials_logo from './initials_logo.png';
 
 function Nav({toggleTheme, theme}) {
   const [showNav, setShowNav] = useState(false)
@@ -15,7 +16,8 @@ function Nav({toggleTheme, theme}) {
       <nav className='navbar'>
       <div className='nav-container'>
       <div className="logo">
-        <Link to="/" >ADD LOGO/HOME</Link>
+        <Link to="/"> <img class="rk-logo"       
+       src={initials_logo}/> </Link>
       </div>
 
 

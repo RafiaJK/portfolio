@@ -2,7 +2,15 @@
     height: 60px;
     /* overflow: hidden; */
     position: relative;
-    background-color: rgba(1, 43, 87, 0.8);
+    background-color: rgba(7, 1, 87, 0.854);
+}
+
+.rk-logo{
+    width: 50px;
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+    border-radius: 50%;
 }
 
 .nav-container {
