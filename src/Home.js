@@ -4,8 +4,8 @@ function Home() {
   return (
     <div className="Home">
       <h3>hi, my name is</h3>
-      <h2>Rafia</h2>
-      <body>Software Engineer</body>
+      <h2>Rafia Khandaker</h2>
+      <h2>I'm a software engineer.</h2>
       <ul>Full-Stack Developer:
         <li>JavaScript</li>
         <li>React</li>

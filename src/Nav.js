@@ -11,6 +11,12 @@ function Nav({toggleTheme, theme}) {
     setShowNav(!showNav)
   }
 
+  const [darkButton, setDarkButton] = useState(true)
+  function toggleDarkMode(){
+    setDarkButton(!darkButton)
+    toggleTheme()
+  }
+
   return (
     <div className="nav">
       <nav className='navbar'>
@@ -22,7 +28,12 @@ function Nav({toggleTheme, theme}) {
 
 
       <div className={`App ${theme}`}>
-      <button onClick={toggleTheme}> ☀️ | 🌙 </button>
+      {/* <button onClick={toggleTheme}> ☀️ | 🌙 </button> */}
+      {!darkButton ? (
+        <button onClick={toggleDarkMode}>☀️</button>
+      ) : (
+        <button onClick={toggleDarkMode}>🌙</button>
+      )}
       </div>
 
       <div className="menu-icon" onClick={toggleNav}>
