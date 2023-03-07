@@ -45,7 +45,9 @@ body {
 }
 
 .button-darkmode{
-  border-radius: 50%;
-  font-size: medium;
+  border-radius: 80%;
+  font-size: large;
   background-color: black;
+  border:none;
+  border-style: outset;
 }
