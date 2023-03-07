@@ -50,4 +50,6 @@ body {
   background-color: black;
   border:none;
   border-style: outset;
+  width: max-content;
+  border-color: gold;
 }

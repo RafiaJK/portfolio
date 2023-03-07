@@ -11,6 +11,8 @@
     position: relative;
     margin: 15px 15px 15px 10px;
     border-radius: 50%;
+    border-style: outset;
+    border-color: gold;
 }
 
 .nav-container {
