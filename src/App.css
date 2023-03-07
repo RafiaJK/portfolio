@@ -43,3 +43,9 @@ body {
   font-family: 'Poppins', sans-serif;
   /* background-color: #fcfcfc; */
 }
+
+.button-darkmode{
+  border-radius: 50%;
+  font-size: medium;
+  background-color: black;
+}

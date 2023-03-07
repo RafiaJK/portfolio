@@ -28,11 +28,10 @@ function Nav({toggleTheme, theme}) {
 
 
       <div className={`App ${theme}`}>
-      {/* <button onClick={toggleTheme}> ☀️ | 🌙 </button> */}
       {!darkButton ? (
-        <button onClick={toggleDarkMode}>☀️</button>
+        <button className="button-darkmode" onClick={toggleDarkMode}>☀️</button>
       ) : (
-        <button onClick={toggleDarkMode}>🌙</button>
+        <button className="button-darkmode" onClick={toggleDarkMode}>🌙</button>
       )}
       </div>
 
