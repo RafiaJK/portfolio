@@ -43,8 +43,9 @@ function App() {
       </BrowserRouter>
 
     <Socials/>
-
-      <p>Designed & Built by Rafia Khandaker | 2023</p>
+    
+      <a href="https://github.com/RafiaJK/portfolio"><p>Designed & Built by Rafia Khandaker | 2023</p>
+</a>
     </div>
   );
 
