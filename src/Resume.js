@@ -41,6 +41,10 @@ function Resume() {
         </ul>
       </h5>
 
+      <h3>Education:</h3>
+      <p>-2022- <br></br> Flatiron School | Software Engineering Bootcamp</p>
+      <p>-2018- <br></br> Stony Brook University | Bachelors Of Science in Information Systems</p>
+   
     </div>
   );
 }

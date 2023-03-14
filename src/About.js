@@ -14,9 +14,7 @@ function About() {
         It was while I was working in social media that I realized I loved creating for a living and finding new ways to catch peoples attention on their screens. 
        </h4>
       <p></p>
-      <p>-2022- <br></br> Flatiron School | Software Engineering Bootcamp</p>
-      <p>-2018- <br></br> Stony Brook University | Bachelors Of Science in Information Systems</p>
-      <p>Check out what I'm listening to:</p> 
+         <p>Check out what I'm listening to:</p> 
       {/* add spotify recent */}
     </div>
   );

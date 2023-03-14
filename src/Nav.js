@@ -3,6 +3,7 @@ import './nav.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import initials_logo from './initials_logo.png';
+import github_logo from './github_logo.png';
 
 function Nav({toggleTheme, theme}) {
   const [showNav, setShowNav] = useState(false)
@@ -16,9 +17,14 @@ function Nav({toggleTheme, theme}) {
     setDarkButton(!darkButton)
     toggleTheme()
   }
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+
 
   return (
+    
     <div className="nav">
+
       <nav className='navbar'>
       <div className='nav-container'>
       <div className="logo">
@@ -45,6 +51,9 @@ function Nav({toggleTheme, theme}) {
             <li><Link to="/about">About Rafia</Link></li>
             <li><Link to="/resume">Resume</Link></li>
             <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="https://www.linkedin.com/in/rafiakhandaker/"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" className='linkedin-logo'/> </Link></li>    
+            <li><Link to="https://github.com/RafiaJK/"><img src={github_logo} className='linkedin-logo'/> </Link></li>                            
+                        
           </ul>
         </div>
         </div>
