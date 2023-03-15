@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import initials_logo from './initials_logo.png';
 import github_logo from './github_logo.png';
+import HamburgerIcon from './HamburgerIcon';
 
 function Nav({toggleTheme, theme}) {
   const [showNav, setShowNav] = useState(false)
@@ -42,8 +43,13 @@ function Nav({toggleTheme, theme}) {
       </div>
 
       <div className="menu-icon" onClick={toggleNav}>
-          <p>hmbrgr</p>
-          {/* add image for hamburger menu */}
+          {/* <svg><HamburgerIcon/></svg> */}
+
+        <svg viewBox="0 0 100 80" width="30" height="25">
+          <rect width="100" height="20" rx="8"></rect>
+          <rect y="30" width="100" height="20" rx="8"></rect>
+          <rect y="60" width="100" height="20" rx="8"></rect>
+        </svg>
       </div>
 
         <div className={`navlinks ${showNav && 'active'}`}>
