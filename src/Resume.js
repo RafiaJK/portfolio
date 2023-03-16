@@ -36,12 +36,13 @@ function Resume() {
 
         <h4>
         <span>Project Management Intern |</span> 2016-2018
+        </h4>
         <ul>
           <li>Supported the Project Manager on the Interactive Development team, by assisting with mobile application launches, site updates, email campaigns, video shoots, event promotions, and social media initiatives.</li>
           <li>Launched and tracked 40-70 projects weekly, managing resources across a team of 25-30 creatives and coordinating project tasks and deadlines.</li>
           <li>Onboarded users to workflow management platforms and resolved technical issues.</li>
         </ul>
-      </h4>
+      
 
       <h3>Education:</h3>
       <p>-2022- <br></br> Flatiron School | Software Engineering Bootcamp</p>

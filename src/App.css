@@ -41,17 +41,27 @@ body {
   margin: 1.5%;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  /* background-color: #fcfcfc; */
 }
 
 .button-darkmode{
-  border-radius: 80%;
-  font-size: large;
+  border-radius: 50%;
+  font-size: x-large;
   background-color: rgb(16, 14, 39);
-  border:none;
   border-style: outset;
-  width: max-content;
+  width: 40px;
+  height: 40px;
   border-color: gold;
+  animation: App-logo-spin infinite 10s ease-in-out;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .button-darkmode:hover{
