@@ -7,7 +7,7 @@ function Home() {
       <h2>Rafia Khandaker</h2>
       <h2>I'm a software engineer.</h2>
       
-      <ul>Full-Stack Developer:
+      <ul>Technical Skills:
         <li>JavaScript</li>
         <li>React</li>
         <li>Ruby</li>
@@ -20,7 +20,7 @@ function Home() {
         <li>CSS</li>
       </ul>
 
-      <ul>Design
+      <ul>Design Skills:
         <li>Canva</li>
         <li>Figma</li>
         <li>Adobe Lightroom</li>

@@ -47,9 +47,13 @@ body {
 .button-darkmode{
   border-radius: 80%;
   font-size: large;
-  background-color: black;
+  background-color: rgb(16, 14, 39);
   border:none;
   border-style: outset;
   width: max-content;
   border-color: gold;
+}
+
+.button-darkmode:hover{
+  background-color: rgb(61, 79, 142);
 }
