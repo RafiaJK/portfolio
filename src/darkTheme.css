@@ -7,11 +7,18 @@
     color:gold;
 }
 
+.dark a{
+    color:rgb(230, 223, 173)
+}
+
 .light {
     background-color: #fff;
     color: rgb(16, 14, 39);
 }
 
+.light a{
+   color:darkslateblue
+}
 .light a:hover{
     color:midnightblue;
 }

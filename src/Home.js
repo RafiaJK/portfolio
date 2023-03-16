@@ -5,7 +5,7 @@ function Home() {
     <div className="Home">
       <h3>hi, my name is</h3>
       <h2>Rafia Khandaker</h2>
-      <h2>I'm a software engineer.</h2>
+      <h3>I'm a software engineer.</h3>
       
       <ul>Technical Skills:
         <li>JavaScript</li>

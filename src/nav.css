@@ -31,15 +31,14 @@
     display: none;
 }
 
-
 .menu-icon rect {
     fill: gold;
 }
 
-.navlinks {
+.navlinks a{
 }
 
-.navlinks a:hover {
+.navlinks li a:hover {
     color: white;
 }
 
@@ -89,7 +88,7 @@
         position: absolute;
         right: 0;
         top: 60px;
-        background-color: #1b1582;
+        background-color: rgb(19, 19, 72);
         width: 0px;
         height: calc(100vh - 60px);
         transition: all 0.3s ease-in;
@@ -109,4 +108,6 @@
         margin-right: unset;
         margin-top: 22px;
     }
+
+
 }

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import initials_logo from './initials_logo.png';
 import github_logo from './github_logo.png';
+import './darkTheme.css';
 
 function Nav({toggleTheme, theme}) {
   const [showNav, setShowNav] = useState(false)
