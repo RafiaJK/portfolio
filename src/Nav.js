@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import initials_logo from './initials_logo.png';
 import github_logo from './github_logo.png';
-import HamburgerIcon from './HamburgerIcon';
 
 function Nav({toggleTheme, theme}) {
   const [showNav, setShowNav] = useState(false)
@@ -19,8 +18,6 @@ function Nav({toggleTheme, theme}) {
     toggleTheme()
   }
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-
 
   return (
     
@@ -43,7 +40,6 @@ function Nav({toggleTheme, theme}) {
       </div>
 
       <div className="menu-icon" onClick={toggleNav}>
-          {/* <svg><HamburgerIcon/></svg> */}
 
         <svg viewBox="0 0 100 80" width="30" height="25">
           <rect width="100" height="20" rx="8"></rect>
@@ -57,8 +53,8 @@ function Nav({toggleTheme, theme}) {
             <li><Link to="/about">About Rafia</Link></li>
             <li><Link to="/resume">Resume</Link></li>
             <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="https://www.linkedin.com/in/rafiakhandaker/"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" className='linkedin-logo'/> </Link></li>    
-            <li><Link to="https://github.com/RafiaJK/"><img src={github_logo} className='linkedin-logo'/> </Link></li>                            
+            <li><Link to="https://www.linkedin.com/in/rafiakhandaker/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" className='linkedin-logo'/> </Link></li>    
+            <li><Link to="https://github.com/RafiaJK/" target="_blank"><img src={github_logo} className='linkedin-logo'/> </Link></li>                            
                         
           </ul>
         </div>
