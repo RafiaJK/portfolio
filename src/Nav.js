@@ -8,9 +8,14 @@ import './darkTheme.css';
 
 function Nav({toggleTheme, theme}) {
   const [showNav, setShowNav] = useState(false)
+  const [hideNav, setHideNav] = useState(true)
 
   const toggleNav = () => {
     setShowNav(!showNav)
+  }
+
+  const minimizeNav = () => {
+    setShowNav(showNav)
   }
 
   const [darkButton, setDarkButton] = useState(true)
@@ -49,8 +54,9 @@ function Nav({toggleTheme, theme}) {
         </svg>
       </div>
 
+        {/* <div className={`navlinks ${showNav && 'active'}`}> */}
         <div className={`navlinks ${showNav && 'active'}`}>
-          <ul>
+          <ul onClick={`${hideNav}`}>
             <li><Link to="/about">About Rafia</Link></li>
             <li><Link to="/resume">Resume</Link></li>
             <li><Link to="/projects">Projects</Link></li>
