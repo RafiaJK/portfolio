@@ -54,9 +54,8 @@ function Nav({toggleTheme, theme}) {
         </svg>
       </div>
 
-        {/* <div className={`navlinks ${showNav && 'active'}`}> */}
         <div className={`navlinks ${showNav && 'active'}`}>
-          <ul onClick={`${hideNav}`}>
+          <ul>
             <li><Link to="/about">About Rafia</Link></li>
             <li><Link to="/resume">Resume</Link></li>
             <li><Link to="/projects">Projects</Link></li>
