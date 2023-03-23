@@ -15,3 +15,11 @@
     display: flex;
     justify-content: center;
 }
+
+.pdf-button{
+    border-radius: 5px;
+    font-size: large;
+    border-color: none;
+    background-color: rgba(56, 51, 137);
+    color: white;
+}

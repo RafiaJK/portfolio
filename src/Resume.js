@@ -12,7 +12,7 @@ function Resume() {
     <div className="Resume">
       <h1>Resume</h1>
 
-      <button onClick={handleClick}>View Resume PDF | Download</button>
+      <button className='pdf-button' onClick={handleClick}>View Resume PDF | Download</button>
       {togglePDF ? <iframe src={Rafia_Khandaker_Resume} width="100%" height="450px"></iframe>
       : <></>
       }
