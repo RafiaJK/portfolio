@@ -1,4 +1,5 @@
 import './App.css';
+import './Home.css';
 
 function Home() {
   return (
@@ -6,8 +7,8 @@ function Home() {
       <h3>hi, my name is</h3>
       <h2>Rafia Khandaker</h2>
       <h3>I'm a software engineer.</h3>
-      
-      <ul>Technical Skills:
+
+      <ul className="tech-skills-list">Technical Skills:
         <li>JavaScript</li>
         <li>React</li>
         <li>Ruby</li>
@@ -20,7 +21,7 @@ function Home() {
         <li>CSS</li>
       </ul>
 
-      <ul>Design Skills:
+      <ul className='tech-skills-list'>Design Skills:
         <li>Canva</li>
         <li>Figma</li>
         <li>Adobe Lightroom</li>

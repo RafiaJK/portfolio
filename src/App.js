@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Resume from './Resume';
@@ -9,6 +8,7 @@ import Projects from "./Projects";
 import Socials from './Socials';
 import { Route, Routes, BrowserRouter, Link } from "react-router-dom";
 import './darkTheme.css';
+
 
 function App() {
 

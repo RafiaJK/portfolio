@@ -30,7 +30,7 @@ function Nav({toggleTheme, theme}) {
     <div className="nav">
 
       <nav className='navbar'>
-      <div className='nav-container'>
+    <div className='nav-container'>
       <div className="logo">
         <Link to="/"> <img class="rk-logo"       
        src={initials_logo}/> </Link>
@@ -54,7 +54,8 @@ function Nav({toggleTheme, theme}) {
         </svg>
       </div>
 
-        <div className={`navlinks ${showNav && 'active'}`}>
+
+        <div className={`navlinks ${showNav && 'active'}`} onClick={toggleNav}>
           <ul>
             <li><Link to="/about">About Rafia</Link></li>
             <li><Link to="/resume">Resume</Link></li>
@@ -64,8 +65,9 @@ function Nav({toggleTheme, theme}) {
                         
           </ul>
         </div>
-        </div>
-      </nav>
+    </div>
+    
+    </nav>
 
     </div>
   );

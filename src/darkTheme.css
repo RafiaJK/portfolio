@@ -11,6 +11,12 @@
     color:rgb(230, 223, 173)
 }
 
+.dark .tech-skills-list{
+    background-color: #100e27;
+    color: lavender;
+    box-shadow: 0 8px 16px 0 rgba(255, 254, 242, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.112);
+}
+
 .light {
     background-color: #fff;
     color: rgb(16, 14, 39);
