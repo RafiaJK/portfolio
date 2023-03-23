@@ -1,6 +1,7 @@
 import './App.css';
 import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
 import React, {useState} from 'react';
+import './Resume.css'
 
 function Resume() {
 
@@ -16,8 +17,8 @@ function Resume() {
       : <></>
       }
 
-
-<ul className="tech-skills-list">Technical Skills:
+<div className="skills-blocks">
+<ul className="tech-skills-list"><b>Technical Skills:</b>
         <li>JavaScript</li>
         <li>React</li>
         <li>Ruby</li>
@@ -30,13 +31,14 @@ function Resume() {
         <li>CSS</li>
       </ul>
 
-      <ul className='tech-skills-list'>Design Skills:
-        <li>Canva</li>
-        <li>Figma</li>
-        <li>Adobe Lightroom</li>
-        <li>Adobe Illustrator</li>
-        <li>Adobe PhotoShop</li>
-      </ul>
+  <ul className='tech-skills-list'><b>Design Skills:</b>
+    <li>Canva</li>
+    <li>Figma</li>
+    <li>Adobe Lightroom</li>
+    <li>Adobe Illustrator</li>
+    <li>Adobe PhotoShop</li>
+  </ul>
+</div>
 
       <h3>Experience:</h3>
       <h4>
