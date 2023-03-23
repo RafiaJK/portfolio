@@ -4,30 +4,19 @@ import './Home.css';
 function Home() {
   return (
     <div className="Home">
-      <h3>hi, my name is</h3>
-      <h2>Rafia Khandaker</h2>
-      <h3>I'm a software engineer.</h3>
+      <h3>Hi, my name is</h3>
+      <h2>Rafia Khandaker.</h2>
 
-      <ul className="tech-skills-list">Technical Skills:
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Ruby</li>
-        <li>Rails</li>
-        <li>Sinatra</li>
-        <li>SQL</li>
-        <li>PostgreSQL</li>
-        <li>SQLite</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
+      <h3>📍 New York</h3>
+      <p> I'm a full-stack developer. 
+        <br></br><br></br>
+        Coding has been a career years in the making - starting with HTML and CSS when I'd update my MySpace profile weekly to make sure my Top 8 stayed up to date, my new favorite song played, and my layout matched my latest mood.
+        A couple short years later I found myself on Tumblr, once again customizing my theme to my latest favorite aesthetic.  
+        <br></br>
+        It was while I was working in social media that I realized I loved creating for a living and finding new ways to catch peoples attention on their screens. 
+       </p>
+      <p></p>
 
-      <ul className='tech-skills-list'>Design Skills:
-        <li>Canva</li>
-        <li>Figma</li>
-        <li>Adobe Lightroom</li>
-        <li>Adobe Illustrator</li>
-        <li>Adobe PhotoShop</li>
-      </ul>
       <p> </p>
     </div>
   );

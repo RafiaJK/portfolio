@@ -57,7 +57,7 @@ function Nav({toggleTheme, theme}) {
 
         <div className={`navlinks ${showNav && 'active'}`} onClick={toggleNav}>
           <ul>
-            <li><Link to="/about">About Rafia</Link></li>
+            {/* <li><Link to="/about">About Rafia</Link></li> */}
             <li><Link to="/resume">Resume</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="https://www.linkedin.com/in/rafiakhandaker/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" className='linkedin-logo'/> </Link></li>    
