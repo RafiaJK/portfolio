@@ -32,7 +32,7 @@ function Resume() {
         <li>CSS</li>
       </ul>
 
-  <ul className='tech-skills-list'><b>Design Skills:</b>
+  <ul className='tech-skills-list'><b>Design:</b>
     <li>Canva</li>
     <li>Figma</li>
     <li>Lightroom</li>
