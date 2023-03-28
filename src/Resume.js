@@ -17,8 +17,8 @@ function Resume() {
       : <></>
       }
 
+<h3>Skills:</h3>
 <div className="skills-blocks">
-  <h3>Skills:</h3>
   <ul className="tech-skills-list"><b>Technical Skills:</b>
         <li>JavaScript</li>
         <li>React</li>
