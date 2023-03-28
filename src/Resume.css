@@ -2,7 +2,7 @@
     /* border-radius: 12px; */
     padding-left: 0px;
     text-align: center;
-    height:144px;
+    max-height: 8em;
     list-style:none;
     /* width: 300px; */
     overflow: auto;
