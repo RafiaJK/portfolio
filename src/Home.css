@@ -11,6 +11,11 @@
     text-align: center;
 }
 
+.home-timeline{
+    position:relative;
+    z-index: -1;
+}
+
 .typing-animation{
     position:relative;
     z-index: -1;
