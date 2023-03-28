@@ -3,6 +3,7 @@ import './App.css';
 function About() {
   return (
     <div className="Home">
+
       <h1>About Rafia</h1>
       
       These are a few of my favorite things:
@@ -13,6 +14,7 @@ function About() {
 
       
     </div>
+
   );
 }
 

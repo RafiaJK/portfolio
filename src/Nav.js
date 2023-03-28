@@ -8,15 +8,11 @@ import './darkTheme.css';
 
 function Nav({toggleTheme, theme}) {
   const [showNav, setShowNav] = useState(false)
-  const [hideNav, setHideNav] = useState(true)
 
   const toggleNav = () => {
     setShowNav(!showNav)
   }
 
-  const minimizeNav = () => {
-    setShowNav(showNav)
-  }
 
   const [darkButton, setDarkButton] = useState(true)
   function toggleDarkMode(){
@@ -37,7 +33,7 @@ function Nav({toggleTheme, theme}) {
       </div>
 
 
-      <div className={`App ${theme}`}>
+      <div className={theme}>
       {!darkButton ? (
         <button className="button-darkmode" onClick={toggleDarkMode}>☀️</button>
       ) : (

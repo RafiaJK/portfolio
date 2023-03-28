@@ -1,10 +1,20 @@
 .App {
   /* text-align: center; */
+  margin-top: 65px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.content-container{
+  margin: 10px;
+}
+
+.designed-by{
+  text-align: center;
+  font-style: italic;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -38,23 +48,11 @@
 }
 
 body {
-  margin: 1.5%;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-
 }
 
-.button-darkmode{
-  border-radius: 50%;
-  font-size: x-large;
-  background-color: rgb(16, 14, 39);
-  border-style: outset;
-  width: 40px;
-  height: 40px;
-  border-color: gold;
-  /* animation: App-logo-spin infinite 10s ease-in-out; */
 
-}
 
 @keyframes App-logo-spin {
   from {

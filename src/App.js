@@ -9,7 +9,6 @@ import Socials from './Socials';
 import { Route, Routes, BrowserRouter, Link } from "react-router-dom";
 import './darkTheme.css';
 
-
 function App() {
 
   const [theme, setTheme] = useState('light')
@@ -33,6 +32,7 @@ function App() {
     <BrowserRouter>
     <Nav toggleTheme={toggleTheme}/>
 
+    <div className="content-container">
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/resume" element={<Resume/>} />
@@ -40,12 +40,12 @@ function App() {
         <Route exact path="/projects" element={<Projects/>} />
         <Route exact path="/socials" element={<Socials/>} />
       </Routes>
+    </div>
       </BrowserRouter>
-
-    {/* <Socials/> */}
     
-      <a href="https://github.com/RafiaJK/portfolio" target="_blank"><p>Designed & Built by Rafia Khandaker | 2023</p>
-</a>
+    
+      <a href="https://github.com/RafiaJK/portfolio" className='designed-by' target="_blank"><p>Designed & Built by Rafia Khandaker | 2023</p> </a>
+
     </div>
   );
 
