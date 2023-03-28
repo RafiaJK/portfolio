@@ -12,14 +12,14 @@ function Resume() {
     <div className="Resume">
       <h1 >Resume</h1>
 
-      <button className='pdf-button' onClick={handleClick}>View Resume PDF | Download</button>
+      <button className='pdf-button' onClick={handleClick}>View Resume PDF</button>
       {togglePDF ? <iframe src={Rafia_Khandaker_Resume} width="100%" height="450px"></iframe>
       : <></>
       }
 
 <div className="skills-blocks">
   <h3>Skills:</h3>
-<ul className="tech-skills-list"><b>Technical Skills:</b>
+  <ul className="tech-skills-list"><b>Technical Skills:</b>
         <li>JavaScript</li>
         <li>React</li>
         <li>Ruby</li>
@@ -39,9 +39,17 @@ function Resume() {
     <li>Adobe Illustrator</li>
     <li>Adobe PhotoShop</li>
   </ul>
-</div>
 
-      <h3>Experience:</h3>
+  <ul className='tech-skills-list'><b>Social Media:</b>
+    <li>Google Analytics</li>
+    <li>Khoros</li>
+    <li>Sentiment Analysis</li>
+    <li>Pinterest Analytics</li>
+    <li>Meta Business Suite</li>
+  </ul>
+  </div>
+
+    <h3>Experience:</h3>
       <h4>
         <span class="resume-company">
           <a href="https://pch.com" target="_blank">Publishers Clearing House</a>
@@ -69,7 +77,7 @@ function Resume() {
         </ul>
       
 
-      <h3>Education:</h3>
+    <h3>Education:</h3>
       <p>-2022- <br></br> Flatiron School | Software Engineering Bootcamp</p>
       <p>-2018- <br></br> Stony Brook University | Bachelors Of Science in Information Systems</p>
    

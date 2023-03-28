@@ -1,7 +1,7 @@
 .navbar {
     height: 60px;
     position: fixed;
-    top: 0; /* Position the navbar at the top of the page */
+    top: 0; 
     width: 100%;
     /* overflow: hidden; */
     background-color: rgba(56, 51, 137, 0.854);
@@ -117,6 +117,7 @@
     .navlinks ul li {
         margin-right: unset;
         margin-top: 22px;
+        font-size:x-large;
     }
 
 
