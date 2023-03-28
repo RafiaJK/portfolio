@@ -1,6 +1,6 @@
 .tech-skills-list{
-    margin: 1rem;
     /* border-radius: 12px; */
+    padding-left: 0px;
     text-align: center;
     height:150px;
     list-style:none;
@@ -13,12 +13,12 @@
 
 .tech-skills-list li{
     width: auto;
+
 }
 
 .skills-blocks{
     display: flex;
-    justify-content: space-between;
-
+    justify-content:space-evenly
 }
 
 .pdf-button{
