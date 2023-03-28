@@ -1,16 +1,37 @@
 import './App.css';
 import './Home.css';
+import self from './self.png'
+import { TypeAnimation } from 'react-type-animation';
 
 function Home() {
   return (
     <div className="Home">
-      <h3>Hi, my name is</h3>
-      <h2>Rafia Khandaker.</h2>
+      <h3>Hi, my name is Rafia Khandaker.</h3>
+      <TypeAnimation
+      sequence={[
+        'I am a software engineer', 
+        1000, // Waits 1s
+        'I am a React developer', 
+        2000, // Waits 2s
+        'I am a ', 
+        () => {
+          console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+        }
+      ]}
+      wrapper="span"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '1.5em', display: 'inline-block' }}
+    />
 
+      <img src={self} alt="photo of Rafia" className='profilepic'></img>
       <h3>📍 New York</h3>
-      <p> I'm a full-stack developer. 
-        <br></br><br></br>
-        Coding has been a career years in the making - starting with HTML and CSS when I'd update my MySpace profile weekly to make sure my Top 8 stayed up to date, my new favorite song played, and my layout matched my latest mood.
+
+
+
+      <p> 
+        {/* create a cute timeline of myspace, tumblr, stony, flatiron */}
+        Coding has been a career years in the making - from 2007 when I'd update my MySpace weekly to make sure my Top 8 stayed up to date, my latest favorite song played, and my layout matched my latest mood.
         A couple short years later I found myself on Tumblr, once again customizing my theme to my latest favorite aesthetic.  
         <br></br>
         It was while I was working in social media that I realized I loved creating for a living and finding new ways to catch peoples attention on their screens. 
