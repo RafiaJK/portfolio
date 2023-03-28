@@ -10,7 +10,7 @@ function Resume() {
 
   return (
     <div className="Resume">
-      <h1 className='resume-header'>Resume</h1>
+      <h1 >Resume</h1>
 
       <button className='pdf-button' onClick={handleClick}>View Resume PDF | Download</button>
       {togglePDF ? <iframe src={Rafia_Khandaker_Resume} width="100%" height="450px"></iframe>
@@ -18,6 +18,7 @@ function Resume() {
       }
 
 <div className="skills-blocks">
+  <h3>Skills:</h3>
 <ul className="tech-skills-list"><b>Technical Skills:</b>
         <li>JavaScript</li>
         <li>React</li>
