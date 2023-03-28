@@ -35,9 +35,9 @@ function Resume() {
   <ul className='tech-skills-list'><b>Design Skills:</b>
     <li>Canva</li>
     <li>Figma</li>
-    <li>Adobe Lightroom</li>
-    <li>Adobe Illustrator</li>
-    <li>Adobe PhotoShop</li>
+    <li>Lightroom</li>
+    <li>Illustrator</li>
+    <li>PhotoShop</li>
   </ul>
 
   <ul className='tech-skills-list'><b>Social Media:</b>
