@@ -19,7 +19,7 @@ export default function OppositeContentTimeline() {
       }}
     >
       <TimelineItem>
-        <TimelineOppositeContent color="textSecondary">
+        <TimelineOppositeContent >
           2022
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -30,7 +30,7 @@ export default function OppositeContentTimeline() {
       </TimelineItem>
 
       <TimelineItem>
-        <TimelineOppositeContent color="textSecondary">
+        <TimelineOppositeContent>
           {/* 2022 */}
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -41,7 +41,7 @@ export default function OppositeContentTimeline() {
       </TimelineItem>
 
       <TimelineItem>
-        <TimelineOppositeContent color="textSecondary">
+        <TimelineOppositeContent>
           2018
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -52,7 +52,7 @@ export default function OppositeContentTimeline() {
       </TimelineItem>
 
       <TimelineItem>
-        <TimelineOppositeContent color="textSecondary">
+        <TimelineOppositeContent>
           2016
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -63,7 +63,7 @@ export default function OppositeContentTimeline() {
       </TimelineItem>
       
       <TimelineItem>
-        <TimelineOppositeContent color="textSecondary">
+        <TimelineOppositeContent>
           2010
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -74,7 +74,7 @@ export default function OppositeContentTimeline() {
       </TimelineItem>
 
       <TimelineItem>
-        <TimelineOppositeContent color="textSecondary">
+        <TimelineOppositeContent>
           2007
         </TimelineOppositeContent>
         <TimelineSeparator>
