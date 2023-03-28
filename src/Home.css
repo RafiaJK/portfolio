@@ -10,3 +10,8 @@
 .Home{
     text-align: center;
 }
+
+.typing-animation{
+    position:relative;
+    z-index: -1;
+}

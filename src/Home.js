@@ -7,7 +7,7 @@ import CodingTimeline from './CodingTimeline';
 function Home() {
   return (
     <div className="Home">
-      <h1>Hi, my name is Rafia Khandaker.</h1>
+      <h1>Hi, I'm Rafia!</h1>
 
       <TypeAnimation
       sequence={[

@@ -1,4 +1,5 @@
 import './App.css';
+import './Projects.css';
 
 function Projects() {
 
@@ -33,7 +34,7 @@ function Projects() {
                     <li>Built out a full CRUD functionality for users to personalize their accounts.</li>
                 </ul>
             
-            <div style={demoStyle}><iframe src="https://www.loom.com/embed/f5d11dd1012e4979aa00ed4229557c05" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={demoFullSize}></iframe></div>
+            <div style={demoStyle} className="demo-video"><iframe src="https://www.loom.com/embed/f5d11dd1012e4979aa00ed4229557c05" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={demoFullSize}></iframe></div>
 
             <h3>
                 <span>FiDi Dining Guide | </span> <a href="https://github.com/RafiaJK/flatiron-FiDi-Dining" target="_blank">View Code</a> 
@@ -47,7 +48,7 @@ function Projects() {
                     <li>Developed an API of location listings in a SQLite database with the ability to persist data for new listings.</li>
                 </ul>
             
-            <div style={demoStyle}><iframe src="https://www.loom.com/embed/0c6e2872954647edb93a54f3b38b32f8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={demoFullSize}></iframe></div>
+            <div style={demoStyle} className="demo-video"><iframe src="https://www.loom.com/embed/0c6e2872954647edb93a54f3b38b32f8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={demoFullSize}></iframe></div>
         </div>
     );
 }

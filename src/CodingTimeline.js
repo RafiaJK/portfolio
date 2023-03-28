@@ -11,7 +11,7 @@ import TimelineOppositeContent, {
 
 export default function OppositeContentTimeline() {
   return (
-    <Timeline
+    <Timeline className="home-timeline"
       sx={{
         [`& .${timelineOppositeContentClasses.root}`]: {
           flex: 0.2,
@@ -80,7 +80,7 @@ export default function OppositeContentTimeline() {
         <TimelineSeparator>
           <TimelineDot />
         </TimelineSeparator>
-        <TimelineContent>Hogged the desktop to update my MySpace layout after school (so, so, SO much neon)</TimelineContent>
+        <TimelineContent>Hogged the family desktop to update my MySpace layout daily (so, so, SO much neon)</TimelineContent>
       </TimelineItem>
     </Timeline>
   );

@@ -107,6 +107,8 @@
 
     .navlinks.active {
         width: 270px;
+        position:absolute;
+        z-index: 2;
     }
 
     .navlinks ul {
