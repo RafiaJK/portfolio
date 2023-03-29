@@ -80,7 +80,7 @@ export default function OppositeContentTimeline() {
         <TimelineSeparator>
           <TimelineDot />
         </TimelineSeparator>
-        <TimelineContent>Hogged the family desktop to update my MySpace layout daily (so, so, SO much neon)</TimelineContent>
+        <TimelineContent>Got my first taste of coding while updating my MySpace layout daily (so, so, SO much neon)</TimelineContent>
       </TimelineItem>
     </Timeline>
   );
