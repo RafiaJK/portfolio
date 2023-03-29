@@ -6,6 +6,7 @@ import About from './About';
 import Nav from './Nav';
 import Projects from "./Projects";
 import Socials from './Socials';
+import CodingTimeline from './CodingTimeline'
 import { Route, Routes, BrowserRouter, Link } from "react-router-dom";
 import './darkTheme.css';
 
@@ -34,7 +35,7 @@ function App() {
 
     <div className="content-container">
       <Routes>
-        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/" element={<Home/>}/>
         <Route exact path="/resume" element={<Resume/>} />
         <Route exact path="/about" element={<About/>} />
         <Route exact path="/projects" element={<Projects/>} />
@@ -42,11 +43,12 @@ function App() {
       </Routes>
     </div>
       </BrowserRouter>
-    
-    
-      <a href="https://github.com/RafiaJK/portfolio" className='designed-by' target="_blank"><p>Designed & Built by Rafia Khandaker | 2023</p> </a>
-
-    </div>
+{/*     
+      <div className='designed-by'>
+      <a href="https://github.com/RafiaJK/portfolio"  target="_blank"><p>Designed & Built by Rafia Khandaker | 2023</p> </a>
+    </div> */}
+  </div>
+  
   );
 
 }

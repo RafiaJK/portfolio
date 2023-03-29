@@ -1,22 +1,48 @@
-.profilepic{
-    border-radius: 50%;
-    max-width: 40%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2%;
-}
 
 .Home{
     text-align: center;
 }
 
 .home-timeline{
-    position:relative;
+    position:absolute;
     z-index: -1;
 }
 
 .typing-animation{
     position:relative;
     z-index: -1;
+    padding-bottom: 1em;
+}
+
+.home-images-block {
+    max-height: 100%;
+    z-index:-2;
+    position:relative;
+}
+
+.profilepic{
+    border-radius: 50%;
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.nyc{
+    position:absolute;
+    width: 100%;
+    left: 0px;  
+    object-fit:cover;
+    z-index:-2;
+    opacity:.75;
+    height: 104%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newyorkpin{
+    color:white;
 }

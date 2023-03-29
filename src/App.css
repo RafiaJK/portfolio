@@ -3,6 +3,8 @@
   margin-top: 65px;
   z-index: 1;
   position: absolute;
+  left:0;
+  right:0;
 }
 
 .App-logo {
