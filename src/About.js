@@ -9,7 +9,7 @@ function About() {
       <h1>About Rafia</h1>
       <TypeAnimation className='typing-animation'
       sequence={[
-        'I am a coffee addict.', 
+        'I am a matcha & coffee addict.', 
         1000, // Waits 1s
         'I make a playlist for every situation.', 
         2000, 
@@ -28,15 +28,14 @@ function About() {
     <br></br>
       These are a few of my favorite things:
 
-    <div className='concerts'>  Going to live shows:
-    </div>
+    {/* <div className='concerts'>  Going to live shows:
+    add photo carousel
+    </div> */}
     
-    <div className='Spotify-latest'>Lately I've been listening to:
-    </div>
-         {/* <p>Check out what I'm listening to:</p>  */}
-      {/* add spotify recent */}
+    {/* <div className='Spotify-latest'>Lately I've been listening to:
+    add spotify top artists
+    </div> */}
 
-      
     </div>
 
   );

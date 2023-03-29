@@ -6,6 +6,10 @@
 .home-timeline{
     position:absolute;
     z-index: -1;
+    left:0px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .typing-animation{
@@ -22,11 +26,11 @@
 
 .profilepic{
     border-radius: 50%;
-    max-width: 40%;
+    max-width: 23%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5%;
+    padding-top: 1%;
 }
 
 .nyc{
@@ -36,7 +40,7 @@
     object-fit:cover;
     z-index:-2;
     opacity:.75;
-    height: 104%;
+    height: 102%;
 
     display: block;
     margin-left: auto;
@@ -45,4 +49,5 @@
 
 .newyorkpin{
     color:white;
+    margin-top: 0;
 }

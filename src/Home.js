@@ -1,6 +1,6 @@
 import './App.css';
 import './Home.css';
-import self from './self.png'
+import profpic from './profpic.png'
 import { TypeAnimation } from 'react-type-animation';
 import CodingTimeline from './CodingTimeline';
 import cityscape from './cityscape.jpg'
@@ -29,7 +29,7 @@ function Home() {
 
     <div className='home-images-block'>
       <img src={cityscape} alt="nyc" className='nyc'></img>
-      <img src={self} alt="photo of Rafia" className='profilepic'></img>
+      <img src={profpic} alt="photo of Rafia" className='profilepic'></img>
       <h2 className='newyorkpin'>📍 New York</h2>
     </div>
 

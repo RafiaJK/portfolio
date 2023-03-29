@@ -19,6 +19,7 @@
 .designed-by{
   text-align: center;
   font-style: italic;
+  position:relative;
 }
 
 @media (prefers-reduced-motion: no-preference) {
