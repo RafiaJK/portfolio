@@ -1,10 +1,10 @@
 .tech-skills-list{
-    /* border-radius: 12px; */
+    /* border-radius: 15%; */
     padding-left: 0px;
     text-align: center;
     max-height: 8em;
     list-style:none;
-    /* width: 300px; */
+    width:33%;
     overflow: auto;
     color: rgb(19, 14, 10);
     /* background-color: rgb(240, 232, 253); */
@@ -13,7 +13,6 @@
 
 .tech-skills-list li{
     width: auto;
-
 }
 
 .skills-blocks{

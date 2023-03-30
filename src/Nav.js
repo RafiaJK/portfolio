@@ -28,8 +28,10 @@ function Nav({toggleTheme, theme}) {
       <nav className='navbar'>
     <div className='nav-container'>
       <div className="logo">
-        <Link to="/"> <img class="rk-logo"       
-       src={initials_logo}/></Link>
+        <Link to="/"> 
+        <img class="rk-logo"       
+       src={initials_logo}/>
+       </Link>
       </div>
 
 

@@ -33,8 +33,12 @@ function Home() {
       <h2 className='newyorkpin'>📍 New York</h2>
     </div>
 
+    <br></br>
+
+    <h4> <i>follow my professional journey - reduced to a timeline for your convenience:</i></h4>
     <CodingTimeline/>
    
+
     </div>
   );
 }

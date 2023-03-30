@@ -14,7 +14,7 @@ export default function OppositeContentTimeline() {
     <Timeline className="home-timeline"
       sx={{
         [`& .${timelineOppositeContentClasses.root}`]: {
-          flex: 0.35,
+          flex: 0.4,
 
         },
       }}

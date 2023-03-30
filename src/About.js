@@ -36,6 +36,8 @@ function About() {
     add spotify top artists
     </div> */}
 
+    {/* add google list for nyc coffee  */}
+
     </div>
 
   );

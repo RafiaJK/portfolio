@@ -1,5 +1,5 @@
 .navbar {
-    height: 60px;
+    height: 4em;
     position: fixed;
     top: 0; 
     width: 100%;
@@ -36,7 +36,8 @@
     height: 100%;
 }
 
-.logo {}
+.logo {
+}
 
 .menu-icon {
     display: none;
@@ -47,6 +48,10 @@
 }
 
 .navlinks a{
+    padding: 1.5em;
+    margin: -1.5em;
+    display: inline-block;
+
 }
 
 .navlinks li a:hover {
@@ -64,16 +69,18 @@
 }
 
 .navlinks ul a {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 1.05em;
     color: #c6c5eb;
     text-decoration: none;
     font-weight: bold;
+
 }
 
 .linkedin-logo{
     height: 30px;
     display: flex;
+    padding: 1em;
+    margin: -1em;
 }
 
 .navlinks ul a.active {
