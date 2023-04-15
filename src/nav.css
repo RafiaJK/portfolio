@@ -4,7 +4,7 @@
     top: 0; 
     width: 100%;
     /* overflow: hidden; */
-    background-color: rgba(56, 51, 137, 0.854);
+    background-color: rgba(107, 103, 192, 0.854);
 }
 
 .rk-logo{
@@ -69,8 +69,8 @@
 }
 
 .navlinks ul a {
-    font-size: 1.05em;
-    color: #c6c5eb;
+    font-size: 1.15em;
+    color: #e7e7fa;
     text-decoration: none;
     font-weight: bold;
 

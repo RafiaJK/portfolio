@@ -2,8 +2,19 @@ import './App.css';
 import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
 import React, { useState } from 'react';
 import './Resume.css'
+import Button from '@mui/material/Button';
+import { createTheme } from '@mui/material/styles';
+import teal from '@mui/material/colors/teal';
+//import './theme.js'
+
 
 function Resume() {
+
+const theme = createTheme({
+  palette: {
+    primary: teal,
+  },
+});
 
   const [togglePDF, setTogglePDF] = useState(false);
   const handleClick = () => { setTogglePDF(!togglePDF) }
@@ -12,7 +23,7 @@ function Resume() {
     <div className="Resume">
       <h1 >Resume</h1>
 
-      <button className='pdf-button' onClick={handleClick}>View Resume PDF</button>
+      <Button variant="contained" color="primary" className='pdf-button' onClick={handleClick}>View Resume PDF</Button>
       {togglePDF ? <iframe src={Rafia_Khandaker_Resume} width="100%" height="450px"></iframe>
         : <></>
       }
