@@ -6,7 +6,16 @@ import DomFike from './Concerts/DomFike.jpeg'
 import EmpressOf from './Concerts/EmpressOf.jpeg'
 import Harry15 from './Concerts/Harry15.jpeg'
 import HarryBW from './Concerts/HarryBW.jpeg'
+import HarryDouble from './Concerts/HarryDouble.jpeg'
 import HarryWide from './Concerts/HarryWide.jpeg'
+import Maine from './Concerts/Maine.jpeg'
+import MaineCowgirl from './Concerts/MaineCowgirl.jpeg'
+import PrettyReckless from './Concerts/PrettyReckless.jpeg'
+import RinaJean from './Concerts/RinaJean.jpeg'
+import RinaSitting from './Concerts/RinaSitting.jpeg'
+import SZAsmoke from './Concerts/SZAsmoke.jpeg'
+import SZATVs from './Concerts/SZATVs.jpg'
+import MaineWH from './Concerts/MaineWH.jpeg'
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -23,7 +32,7 @@ export default function QuiltedImageList() {
       sx={{ width: 500, height: 350 }}
       variant="quilted"
       cols={4}
-      rowHeight={141}
+      rowHeight={140}
     >
       {itemData.map((item) => (
         <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
@@ -51,7 +60,6 @@ const itemData = [
     rows: 1,
     cols: 2,
   },
-
   {
     img: HarryWide,
     title: 'Harry Styles',
@@ -62,38 +70,61 @@ const itemData = [
     title: 'Hats',
     cols: 2,
   },
-  {
-    img: DomFike,
-    title: 'Honey',
-    author: '@arwinneil',
+{
+    img: RinaJean,
+    title: 'Rina Sawayama',
+    cols: 4,
     rows: 2,
-    cols: 2,
   },
   {
     img: BluDeTiger,
     title: 'Blu DeTiger',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
     rows: 2,
     cols: 2,
   },
   {
     img: EmpressOf,
     title: 'Empress Of',
+    rows: 2,
+    cols: 2,
+  },
+  {
+    img: DomFike,
+    title: 'Dominic Fike',
+    rows: 2,
+    cols: 1,
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
+    title: 'Mushrooms',
+    rows: 1,
+    cols: 3,
+  },
+  {
+    img: EmpressOf,
+    title: 'Empress Of',
+    rows: 1,
+    cols: 3,
+  },
+  {
+    img: HarryWide,
+    title: 'Harry Styles',
+    cols: 4,
+    rows: 2
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
+    title: 'Sea star',
+    cols: 2
   },
   {
     img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
     title: 'Sea star',
   },
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    cols: 2,
+    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
+    title: 'Sea star',
   },
+
+
 ];
