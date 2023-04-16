@@ -1,6 +1,7 @@
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import AM from './Concerts/AM.jpeg'
 import BluDeTiger from './Concerts/BluDeTiger.jpeg'; 
 import DomFike from './Concerts/DomFike.jpeg'
 import EmpressOf from './Concerts/EmpressOf.jpeg'
@@ -8,14 +9,19 @@ import Harry15 from './Concerts/Harry15.jpeg'
 import HarryBW from './Concerts/HarryBW.jpeg'
 import HarryDouble from './Concerts/HarryDouble.jpeg'
 import HarryWide from './Concerts/HarryWide.jpeg'
+import Mahalia from './Concerts/Mahalia.jpeg'
 import Maine from './Concerts/Maine.jpeg'
+import MaineWH from './Concerts/MaineWH.jpeg'
+import MaineWH2 from './Concerts/MaineWH2.jpeg'
+import Portugal from './Concerts/Portugal.jpeg'
 import MaineCowgirl from './Concerts/MaineCowgirl.jpeg'
 import PrettyReckless from './Concerts/PrettyReckless.jpeg'
 import RinaJean from './Concerts/RinaJean.jpeg'
 import RinaSitting from './Concerts/RinaSitting.jpeg'
 import SZAsmoke from './Concerts/SZAsmoke.jpeg'
 import SZATVs from './Concerts/SZATVs.jpg'
-import MaineWH from './Concerts/MaineWH.jpeg'
+import SZctrl from './Concerts/SZctrl.jpeg'
+import VampireWeekend from './Concerts/VampireWeekend.jpeg'
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -29,7 +35,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 export default function QuiltedImageList() {
   return (
     <ImageList
-      sx={{ width: 500, height: 350 }}
+      sx={{ width: 500, height: 950 }}
       variant="quilted"
       cols={4}
       rowHeight={140}
@@ -55,8 +61,8 @@ const itemData = [
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
+    img: Mahalia,
+    title: 'Mahalia',
     rows: 1,
     cols: 2,
   },
@@ -66,8 +72,8 @@ const itemData = [
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
+    img: SZctrl,
+    title: 'SZA',
     cols: 2,
   },
 {
@@ -95,36 +101,33 @@ const itemData = [
     cols: 1,
   },
   {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
-    rows: 1,
+    img: AM,
+    title: 'Arctic Monkeys',
+    rows: 2,
     cols: 3,
   },
   {
-    img: EmpressOf,
-    title: 'Empress Of',
-    rows: 1,
-    cols: 3,
-  },
-  {
-    img: HarryWide,
+    img: HarryDouble,
     title: 'Harry Styles',
     cols: 4,
     rows: 2
   },
   {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
-    cols: 2
+    img: Portugal,
+    title: 'Portugal The Man',
+    cols: 2,
+    rows:1
   },
   {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
+    img: VampireWeekend,
+    title: 'Vampire Weekend',
+    cols: 2,
+    rows:2
   },
   {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
+    img: Maine,
+    title: 'The Maine',
+    rows:1,
+    cols: 2,
   },
-
-
 ];
