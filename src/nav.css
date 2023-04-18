@@ -8,18 +8,18 @@
 }
 
 .rk-logo{
-    width: 50px;
+    width: 85%;
     float: left;
     position: relative;
     margin: 15px 15px 15px 10px;
-    border-radius: 50%;
+    /* border-radius: 50%;
     border-style: outset;
-    border-color: gold;
+    border-color: gold; */
 }
 
 .button-darkmode{
     border-radius: 50%;
-    font-size: x-large;
+    font-size: large;
     background-color: rgb(16, 14, 39);
     border-style: none;
     border-color: gold;
@@ -37,6 +37,7 @@
 }
 
 .logo {
+    width: 70%;
 }
 
 .menu-icon {
@@ -51,7 +52,6 @@
     padding: 1.5em;
     margin: -1.5em;
     display: inline-block;
-
 }
 
 .navlinks li a:hover {
@@ -73,7 +73,6 @@
     color: #e7e7fa;
     text-decoration: none;
     font-weight: bold;
-
 }
 
 .linkedin-logo{
@@ -129,5 +128,11 @@
         font-size:x-large;
     }
 
+    .navlinks ul a {
+        font-size: 1em;
+        color: #e7e7fa;
+        text-decoration: none;
+        font-weight: bold;
+    }
 
 }

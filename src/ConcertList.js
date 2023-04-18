@@ -34,11 +34,13 @@ function srcset(image, size, rows = 1, cols = 1) {
 
 export default function QuiltedImageList() {
   return (
+
+  <div className='concert-grid'>
     <ImageList
-      sx={{ width: 500, height: 400 }}
+      sx={{ width: 600, height: 450 }}
       variant="quilted"
       cols={4}
-      rowHeight={140}
+      rowHeight={160}
     >
       {itemData.map((item) => (
         <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
@@ -50,6 +52,7 @@ export default function QuiltedImageList() {
         </ImageListItem>
       ))}
     </ImageList>
+  </div>
   );
 }
 
@@ -77,7 +80,7 @@ const itemData = [
     cols: 2,
   },
 {
-    img: RinaJean,
+    img: RinaSitting,
     title: 'Rina Sawayama',
     cols: 4,
     rows: 2,
@@ -130,4 +133,5 @@ const itemData = [
     rows:1,
     cols: 2,
   },
+
 ];

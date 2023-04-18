@@ -1,13 +1,25 @@
 .concerts{
-    /* text-align: left; */
-    width:50%;
-    float:left 
+    /* display:block; */
+    position:relative;
+    z-index: -2;
+    float: left;
+}
+
+.favorites-list{
+    text-align: left;
+}
+
+.Home h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
 }
 
 @media only screen and (max-width: 600px) {
-    .concerts ul{
-        width:200%;
-        float:left 
+    .concerts{
+        /* width:90%; */
+        /* display:block; */
+        /* position:absolute */
     }
   }
 

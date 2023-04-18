@@ -7,7 +7,6 @@ import { createTheme } from '@mui/material/styles';
 import teal from '@mui/material/colors/teal';
 //import './theme.js'
 
-
 function Resume() {
 
 const theme = createTheme({
@@ -21,7 +20,7 @@ const theme = createTheme({
 
   return (
     <div className="Resume">
-      <h1 >Resume</h1>
+      <h1>Resume</h1>
 
       <Button variant="contained" color="primary" className='pdf-button' onClick={handleClick}>View Resume PDF</Button>
       {togglePDF ? <iframe src={Rafia_Khandaker_Resume} width="100%" height="450px"></iframe>
@@ -39,8 +38,7 @@ const theme = createTheme({
           <li>SQL</li>
           <li>PostgreSQL</li>
           <li>SQLite</li>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>HTML/CSS</li>
         </ul>
 
         <ul className='tech-skills-list'><b>Design:</b>

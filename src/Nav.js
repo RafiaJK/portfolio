@@ -3,7 +3,10 @@ import './nav.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import initials_logo from './initials_logo.png';
+import full_logo from './full_logo.png';
 import github_logo from './github_logo.png';
+import about from './nav_imgs/about.png'
+import projects from './nav_imgs/projects.png'
 import './darkTheme.css';
 
 function Nav({toggleTheme, theme}) {
@@ -12,7 +15,6 @@ function Nav({toggleTheme, theme}) {
   const toggleNav = () => {
     setShowNav(!showNav)
   }
-
 
   const [darkButton, setDarkButton] = useState(true)
   function toggleDarkMode(){
@@ -29,7 +31,7 @@ function Nav({toggleTheme, theme}) {
     <div className='nav-container'>
       <div className="logo">
         <Link to="/"> 
-        <img class="rk-logo"src={initials_logo}/>
+        <img class="rk-logo"src={full_logo}/>
        </Link>
       </div>
 
@@ -54,9 +56,9 @@ function Nav({toggleTheme, theme}) {
 
         <div className={`navlinks ${showNav && 'active'}`} onClick={toggleNav}>
           <ul>
-            <li><Link to="/about">ABOUT</Link></li>
-            <li><Link to="/resume">RESUME</Link></li>
-            <li><Link to="/projects">PROJECTS</Link></li>
+            <li><Link to="/about"> ABOUT </Link></li>
+            <li><Link to="/resume"> RESUME </Link></li>
+            <li><Link to="/projects"> PROJECTS </Link></li>
             <li><Link to="https://www.linkedin.com/in/rafiakhandaker/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" className='linkedin-logo'/></Link></li>    
             <li><Link to="https://github.com/RafiaJK/" target="_blank"><img src={github_logo} className='linkedin-logo'/> </Link></li>                            
                         
