@@ -9,7 +9,6 @@ import Socials from './Socials';
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import './darkTheme.css';
 
-
 function App() {
 
   const [theme, setTheme] = useState('light')

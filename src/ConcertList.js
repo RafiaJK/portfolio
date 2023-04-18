@@ -35,7 +35,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 export default function QuiltedImageList() {
   return (
     <ImageList
-      sx={{ width: 500, height: 950 }}
+      sx={{ width: 500, height: 400 }}
       variant="quilted"
       cols={4}
       rowHeight={140}

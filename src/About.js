@@ -1,7 +1,7 @@
 import './App.css';
 import { TypeAnimation } from 'react-type-animation';
 import ConcertList from './ConcertList';
-
+import './about.css'
 
 function About() {
   return (
@@ -28,11 +28,11 @@ function About() {
 
     <br></br>
       These are a few of my favorite things:
-
-    {/* <div className='concerts'>  Going to live shows:
-    add photo carousel
-    </div> */}
+      <br></br>
+    <div className='concerts'> Going to live shows:
     <ConcertList/>
+    </div>
+
     
     {/* <div className='Spotify-latest'>Lately I've been listening to:
     add spotify top artists
