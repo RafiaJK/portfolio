@@ -18,12 +18,10 @@
 }
 
 .button-darkmode{
-    border-radius: 50%;
+    border-radius: 10%;
     font-size: large;
     background-color: rgb(16, 14, 39);
     border-style: none;
-    border-color: gold;
-    /* animation: App-logo-spin infinite 10s ease-in-out; */
   }
 
 .nav-container {
@@ -112,7 +110,7 @@
     }
 
     .navlinks.active {
-        width: 270px;
+        width: 250px;
         position:absolute;
         z-index: 2;
     }
