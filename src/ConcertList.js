@@ -22,6 +22,7 @@ import SZAsmoke from './Concerts/SZAsmoke.jpeg'
 import SZATVs from './Concerts/SZATVs.jpg'
 import SZctrl from './Concerts/SZctrl.jpeg'
 import VampireWeekend from './Concerts/VampireWeekend.jpeg'
+import './about.css'
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -37,10 +38,10 @@ export default function QuiltedImageList() {
 
   <div className='concert-grid'>
     <ImageList
-      sx={{ width: 600, height: 450 }}
+      sx={{height: 500 }}
       variant="quilted"
       cols={4}
-      rowHeight={160}
+      // rowHeight={150}
     >
       {itemData.map((item) => (
         <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>

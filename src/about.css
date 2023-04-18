@@ -1,7 +1,11 @@
 .concerts{
-    /* display:block; */
+    display:block;
     position:relative;
     z-index: -2;
+}
+
+.concert-grid{
+    max-width:100%;
     float: left;
 }
 
@@ -16,10 +20,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .concerts{
-        /* width:90%; */
-        /* display:block; */
-        /* position:absolute */
+    .concert-grid{
+        width:500px;
+        /* display:block;
+        position:absolute */
     }
   }
 
