@@ -34,10 +34,10 @@ function App() {
           <div className="content-container">
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route exact path="/resume" element={<Resume />} />
-              <Route exact path="/about" element={<About />} />
-              <Route exact path="/projects" element={<Projects />} />
-              <Route exact path="/socials" element={<Socials />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/socials" element={<Socials />} />
             </Routes>
           </div>
         </BrowserRouter>
