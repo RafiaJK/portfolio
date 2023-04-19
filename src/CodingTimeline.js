@@ -11,11 +11,11 @@ import TimelineOppositeContent, {
 
 export default function OppositeContentTimeline() {
   return (
-    <Timeline className="home-timeline"
+    <div className='home-timeline'>
+    <Timeline 
       sx={{
         [`& .${timelineOppositeContentClasses.root}`]: {
-          flex: 0.4,
-
+          flex: 0.3,
         },
       }}
     >
@@ -84,5 +84,7 @@ export default function OppositeContentTimeline() {
         <TimelineContent>Got my first taste of coding while updating my MySpace layout daily (so, so, SO much neon)</TimelineContent>
       </TimelineItem>
     </Timeline>
+
+  </div>
   );
 }

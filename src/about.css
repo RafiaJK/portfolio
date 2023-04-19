@@ -5,9 +5,18 @@
 }
 
 .concert-grid{
-    max-width:100%;
+    /* max-width:75%; */
     float: left;
+    margin-left: 1em;
+    margin-right: 1em;
 }
+
+/* .concert-grid ul{
+    height: auto; 
+    width: auto; 
+    max-width: 550px; 
+    max-height: 400px;
+} */
 
 .favorites-list{
     text-align: left;
@@ -20,8 +29,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .concert-grid{
-        width:500px;
+    .concert-grid ul{
+        width:100%;
         /* display:block;
         position:absolute */
     }

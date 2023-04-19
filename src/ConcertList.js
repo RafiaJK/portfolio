@@ -38,7 +38,7 @@ export default function QuiltedImageList() {
 
   <div className='concert-grid'>
     <ImageList
-      sx={{height: 500 }}
+      sx={{height: 400 }}
       variant="quilted"
       cols={4}
       // rowHeight={150}

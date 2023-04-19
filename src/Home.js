@@ -11,33 +11,34 @@ function Home() {
       <h1>Hi, I'm Rafia!</h1>
 
       <TypeAnimation className='typing-animation'
-      sequence={[
-        'I am a software engineer.', 
-        1000, // Waits 1s
-        'I am a React developer.', 
-        2000, // Waits 2s
-        'I am a ', 
-        () => {
-          console.log('Sequence completed'); // Place optional callbacks anywhere in the array
-        }
-      ]}
-      wrapper="span"
-      cursor={true}
-      repeat={Infinity}
-      style={{ fontSize: '1.5em', display: 'inline-block' }}
-    />
+        sequence={[
+          'I am a Software Engineer.',
+          1000, // Waits 1s
+          'I am a React Developer.',
+          2000, // Waits 2s
+          'I am a ',
+          () => {
+            console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+          }
+        ]}
+        wrapper="span"
+        cursor={true}
+        repeat={Infinity}
+        style={{ fontSize: '1.5em', display: 'inline-block' }}
+      />
 
-    <div className='home-images-block'>
-      <img src={cityscape} alt="nyc" className='nyc'></img>
-      <img src={profpic} alt="photo of Rafia" className='profilepic'></img>
-      <h2 className='newyorkpin'>📍 New York</h2>
-    </div>
+      <div className='home-images-block'>
+        <img src={cityscape} alt="nyc" className='nyc'></img>
+        <img src={profpic} alt="photo of Rafia" className='profilepic'></img>
+        <h2 className='newyorkpin'>📍 New York</h2>
+      </div>
 
-    <br></br>
+      <br></br>
 
-    <h4> <i>follow my professional journey - reduced to a timeline for your convenience:</i></h4>
-    <CodingTimeline/>
-   
+      <div className='prof-journey'>
+        <p><b><i>Follow my professional journey - reduced to a timeline for your convenience:</i></b></p>
+        <CodingTimeline />
+      </div>
 
     </div>
   );

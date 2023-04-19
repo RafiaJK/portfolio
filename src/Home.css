@@ -3,13 +3,19 @@
     text-align: center;
 }
 
+.prof-journey{
+    text-align: left;
+    margin-left: 5em;
+}
+
 .home-timeline{
     position:absolute;
     z-index: -1;
     left:0px;
     margin-left: auto;
     margin-right: auto;
-
+    /* height:20em;
+    overflow: scroll; */
 }
 
 .typing-animation{

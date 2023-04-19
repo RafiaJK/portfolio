@@ -42,9 +42,10 @@ function App() {
           </div>
         </BrowserRouter>
 
-        {/* <div className='designed-by'>
-      <a href="https://github.com/RafiaJK/portfolio"  target="_blank"><p>Designed & Built by Rafia Khandaker | 2023</p> </a>
-    </div> */}
+      {/* <div className='designed-by'>
+        <a href="https://github.com/RafiaJK/portfolio" target="_blank"><p>Designed & Built by Rafia Khandaker | 2023</p> </a>
+      </div> */}
+
     </div>
 
   );
