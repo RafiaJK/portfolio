@@ -11,10 +11,11 @@ function Projects() {
 
     const demoFullSize = {
         position: 'absolute', 
-        top: 0, 
-        left: 0, 
+        // top: 0, 
+        // left: 0, 
         width: '100%',
         height: '100%',
+        // style:"z-index:-10;"
     }
 
     return (
