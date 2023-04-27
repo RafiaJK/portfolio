@@ -4,6 +4,7 @@ import profpic from './profpic.png'
 import { TypeAnimation } from 'react-type-animation';
 import CodingTimeline from './CodingTimeline';
 import cityscape from './cityscape.jpg'
+import Skills from './Skills'
 
 function Home() {
   return (
@@ -34,6 +35,10 @@ function Home() {
       </div>
 
       <br></br>
+
+      <div className='skills'>
+        <Skills/>
+      </div>
 
       <div className='prof-journey'>
         <p><b><i>Follow my professional journey - reduced to a timeline for your convenience:</i></b></p>

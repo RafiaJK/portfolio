@@ -1,11 +1,10 @@
 import './App.css';
 import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
 import React, { useState } from 'react';
-import './Resume.css'
-import Button from '@mui/material/Button';
+import './resume.css'
 import { createTheme } from '@mui/material/styles';
 import teal from '@mui/material/colors/teal';
-//import './theme.js'
+import Skills from './Skills'
 
 function Resume() {
 
@@ -22,11 +21,12 @@ const theme = createTheme({
     <div className="Resume">
       <h1>Resume</h1>
 
-      <Button variant="contained" color="primary" className='pdf-button' onClick={handleClick}>View Resume PDF</Button>
+      <button className='pdf-button' onClick={handleClick}>View Resume PDF</button>
+    
       {togglePDF ? <iframe src={Rafia_Khandaker_Resume} width="100%" height="450px"></iframe>
         : <></>
       }
-
+{/* 
       <h3>Skills:</h3>
       <div className="skills-blocks">
         <ul className="tech-skills-list"><b>Developer:</b>
@@ -56,7 +56,7 @@ const theme = createTheme({
           <li>Pinterest Analytics</li>
           <li>Meta Business Suite</li>
         </ul>
-      </div>
+      </div> */}
 
       <h3>Experience:</h3>
       <h4>
