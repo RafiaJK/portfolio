@@ -6,7 +6,8 @@ import './skills.css'
 export default function ImageAvatars() {
     return (
         <div className='skills'>
-            <b>Developer</b>
+            <h3 className='skills-header'>SKILLS</h3>
+            <h4 className='skills-title'>Developer</h4>
             <Stack spacing={{ xs: 1, sm: 3, md: 5 }} className="skill-section" direction="row"  justifyContent="center" alignItems="center">
                 <Avatar variant="rounded" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
                 <Avatar variant="rounded" alt="React" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" />
@@ -21,9 +22,7 @@ export default function ImageAvatars() {
                 {/* <Avatar variant="rounded" alt="Git" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" /> */}
             </Stack>
 
-            <br></br>
-
-            <b>Design</b>
+            <h4 className='skills-title'>Design</h4>
             <Stack className="skill-section" direction="row" spacing={3} justifyContent="center" alignItems="center">
                 <Avatar variant="rounded" alt="Canva" src="https://img.icons8.com/fluency/512/canva.png" />
                 <Avatar variant="rounded" alt="Figma" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" />

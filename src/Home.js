@@ -34,8 +34,6 @@ function Home() {
         <h2 className='newyorkpin'>📍 New York</h2>
       </div>
 
-      <br></br>
-
       <div className='skills'>
         <Skills/>
       </div>
