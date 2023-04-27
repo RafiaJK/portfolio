@@ -15,7 +15,7 @@ export default function ImageAvatars() {
                 <Avatar variant="rounded" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" />
                 <Avatar variant="rounded" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
                 <Avatar variant="rounded" alt="MySQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" />
-                <Avatar variant="rounded" alt="PostgreSQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" />
+                {/* <Avatar variant="rounded" alt="PostgreSQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" /> */}
                 <Avatar variant="rounded" alt="SQLite" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" />
                 {/* <Avatar variant="rounded" alt="Python" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> */}
                 {/* <Avatar variant="rounded" alt="Git" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" /> */}
