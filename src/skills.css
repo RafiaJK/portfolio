@@ -2,7 +2,6 @@
     background-color: rgba(230, 230, 250);
     color: rgb(16, 14, 39);
     padding-top: .5em;
-    margin: auto;
 }
 
 @media (max-width: 600px) {

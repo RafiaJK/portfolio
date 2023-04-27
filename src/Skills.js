@@ -7,7 +7,7 @@ export default function ImageAvatars() {
     return (
         <div className='skills'>
             <b>Developer</b>
-            <Stack className="skill-section" direction="row" spacing={3} justifyContent="center" alignItems="center">
+            <Stack spacing={{ xs: 1, sm: 3, md: 5 }} className="skill-section" direction="row"  justifyContent="center" alignItems="center">
                 <Avatar variant="rounded" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
                 <Avatar variant="rounded" alt="React" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" />
                 <Avatar variant="rounded" alt="Ruby" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" />
@@ -18,7 +18,7 @@ export default function ImageAvatars() {
                 <Avatar variant="rounded" alt="PostgreSQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" />
                 <Avatar variant="rounded" alt="SQLite" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" />
                 {/* <Avatar variant="rounded" alt="Python" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" /> */}
-                <Avatar variant="rounded" alt="Git" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" />
+                {/* <Avatar variant="rounded" alt="Git" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" /> */}
             </Stack>
 
             <br></br>
