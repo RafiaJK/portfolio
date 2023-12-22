@@ -5,6 +5,8 @@ import { TypeAnimation } from 'react-type-animation';
 import CodingTimeline from './CodingTimeline';
 import cityscape from './cityscape.jpg'
 import Skills from './Skills'
+import React, { useState } from 'react';
+import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
 
 function Home() {
   return (
@@ -15,7 +17,7 @@ function Home() {
         sequence={[
           'I am a Software Engineer.',
           1000, // Waits 1s
-          'I am a React Developer.',
+          'I am a Social Media Marketer.',
           2000, // Waits 2s
           'I am a ',
           () => {
@@ -34,14 +36,18 @@ function Home() {
         <h2 className='newyorkpin'>📍 New York</h2>
       </div>
 
-      <div className='skills'>
-        <Skills/>
+      <div className='home-blurb'>
+        <h4>Results-oriented professional with a diverse background in project management, digital marketing strategy, and technical proficiency in full-stack development.</h4>
       </div>
 
-      <div className='prof-journey'>
+      {/* <div className='skills'>
+        <Skills/>
+      </div> */}
+
+      {/* <div className='prof-journey'>
         <p><b><i>Follow my professional journey - reduced to a timeline for your convenience:</i></b></p>
         <CodingTimeline />
-      </div>
+      </div> */}
 
     </div>
   );
