@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import Resume from './Resume';
+import ResumeExpanded from './ResumeExpanded'
 import Home from './Home';
 import About from './About';
 import Nav from './Nav';
@@ -34,7 +35,7 @@ function App() {
           <div className="content-container">
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route path="/resume" element={<Resume />} />
+              <Route path="/resume" element={<> <ResumeExpanded/><Resume /> </>} />
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/socials" element={<Socials />} />

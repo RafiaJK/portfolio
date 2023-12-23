@@ -5,6 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 import CodingTimeline from './CodingTimeline';
 import cityscape from './cityscape.jpg'
 import Skills from './Skills'
+import Resume from './Resume'
 import React, { useState } from 'react';
 import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
 
@@ -39,6 +40,8 @@ function Home() {
       <div className='home-blurb'>
         <h4>Results-oriented professional with a diverse background in project management, digital marketing strategy, and technical proficiency in full-stack development.</h4>
       </div>
+
+      <Resume/>
 
       {/* <div className='skills'>
         <Skills/>
