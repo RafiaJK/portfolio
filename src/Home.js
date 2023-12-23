@@ -16,11 +16,9 @@ function Home() {
 
       <TypeAnimation className='typing-animation'
         sequence={[
-          'I am a Software Engineer.',
-          1000, // Waits 1s
-          'I am a Social Media Marketer.',
-          2000, // Waits 2s
-          'I am a ',
+          'I am a Software Engineer.', 1500, 
+          'I am a Social Media Specialist.', 2000, // Waits 2s
+          'I am a Digital Marketer.', 1500,
           () => {
             console.log('Sequence completed'); // Place optional callbacks anywhere in the array
           }
@@ -38,7 +36,7 @@ function Home() {
       </div>
 
       <div className='home-blurb'>
-        <h4>Results-oriented professional with a diverse background in project management, digital marketing strategy, and technical proficiency in full-stack development.</h4>
+        <h4>Results-oriented professional with a diverse background in project management, social media, digital marketing strategy, and technical proficiency in full-stack development.</h4>
       </div>
 
       <Resume/>
