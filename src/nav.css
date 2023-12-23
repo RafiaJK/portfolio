@@ -17,10 +17,11 @@
 }
 
 .button-darkmode{
-    border-radius: 10%;
-    font-size: large;
+    border-radius: 50%;
+    font-size:larger;
     background-color: rgb(16, 14, 39);
     border-style: none;
+    transition-duration: 0.5s;
   }
 
 .nav-container {

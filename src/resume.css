@@ -28,3 +28,9 @@
     padding: 15px 30px;
     font-weight: bold;
 }
+
+.pdf-button:hover{
+    background-color:darkslateblue;
+    color: lavender;
+    transition-duration: .5s;
+}

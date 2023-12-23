@@ -10,7 +10,7 @@ function About() {
       <h1>About Rafia</h1>
       <TypeAnimation className='typing-animation'
       sequence={[
-        'I am a coffee & matcha addict.', 
+        'I am a coffee addict.', 
         1000, // Waits 1s
         'I make a playlist for every mood.', 
         2000, 
@@ -33,12 +33,8 @@ function About() {
         <li>Discovering new music: 
             <a href='https://open.spotify.com/user/1238055695'> find me on Spotify</a>
           </li> 
-        <li>Reading:
-            <a href='https://goodreads.com/rafiajk'> find me on goodreads</a>
-          </li> 
-        <li>Visiting all the flowershop cafes in NYC</li> 
+        <li>Baking</li> 
         <li>Going for runs</li> 
-        {/* add nike run club acct */}
         <li>Rewatching Gossip Girl</li> 
         <li>Going to concerts:</li> 
       </ul>      
