@@ -21,7 +21,7 @@
     font-size:larger;
     background-color: rgb(16, 14, 39);
     border-style: none;
-    transition-duration: 0.5s;
+    transition: 0.5s;
   }
 
 .nav-container {

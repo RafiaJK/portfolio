@@ -2,13 +2,15 @@ import './App.css';
 import { TypeAnimation } from 'react-type-animation';
 import ConcertList from './ConcertList';
 import './about.css'
+import profpic2 from './profpic2.jpg'
+import TravelGrid from'./TravelGrid';
 
 function About() {
   return (
     <div className="Home">
 
       <h1>About Rafia</h1>
-      <TypeAnimation className='typing-animation'
+      {/* <TypeAnimation className='typing-animation'
       sequence={[
         'I am a coffee addict.', 
         1000, // Waits 1s
@@ -24,29 +26,37 @@ function About() {
       cursor={true}
       repeat={Infinity}
       style={{ fontSize: '1.5em', display: 'inline-block' }}
-    />
+    /> */}
 
-    <h4>These are a few of my favorite things:</h4>
+    <div class="column side">
+    <h2>Hello World</h2>
 
-    <div className='favorites-list'>
-      <ul>
-        <li>Discovering new music: 
-            <a href='https://open.spotify.com/user/1238055695'> find me on Spotify</a>
-          </li> 
-        <li>Baking</li> 
-        <li>Going for runs</li> 
-        <li>Rewatching Gossip Girl</li> 
-        <li>Going to concerts:</li> 
-      </ul>      
-    </div>
+    <div className='home-images-block'>
+        {/* <img src={cityscape} alt="nyc" className='nyc'></img> */}
+        <img src={profpic2} alt="photo of Rafia" className='profilepic2'></img>
+      </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  
+  <div className="column main">
+    <h2> </h2>
+    <p>In my spare time I love listening to music and seeing live shows, traveling, baking, and running.</p>
 
-    <div className='concerts'> 
+    <p>Where I've been:</p>
+    <TravelGrid/>
+    <ul>
+      <li>Portugal</li>
+    </ul>
+
+    <p>What I'm listening to:</p>
+    <iframe style= {{borderRadius:"16px"}} src="https://open.spotify.com/embed/playlist/37i9dQZF1EpgGw7nQAGKTa?utm_source=generator&theme=0" width="100%" height="152" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
+  </div>
+  
+
+
+    {/* <div className='concerts'> 
     <ConcertList/>
-    </div>
-      
-
-    {/* <div className='Spotify-latest'>Lately I've been listening to:
-    add spotify top artists
     </div> */}
 
     {/* add google list for nyc coffee  */}
