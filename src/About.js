@@ -9,7 +9,7 @@ function About() {
   return (
     <div className="Home">
 
-      <h1>About Rafia</h1>
+      <h1>Hello World 👋</h1>
       {/* <TypeAnimation className='typing-animation'
       sequence={[
         'I am a coffee addict.', 
@@ -29,26 +29,24 @@ function About() {
     /> */}
 
     <div class="column side">
-    <h2>Hello World</h2>
+    <h3>Nice to meet you!</h3>
 
     <div className='home-images-block'>
         {/* <img src={cityscape} alt="nyc" className='nyc'></img> */}
         <img src={profpic2} alt="photo of Rafia" className='profilepic2'></img>
       </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    <p className="aboutBlurb">When I'm not working, you can find me searching for my next concert, making playlists, trying new coffee shops, baking, running, and traveling.</p>
+    
   </div>
   
   <div className="column main">
     <h2> </h2>
-    <p>In my spare time I love listening to music and seeing live shows, traveling, baking, and running.</p>
 
-    <p>Where I've been:</p>
+
+    <p>Check out some of the places I've been:</p>
     <TravelGrid/>
-    <ul>
-      <li>Portugal</li>
-    </ul>
 
-    <p>What I'm listening to:</p>
+    <p>See what I've had on repeat lately:</p>
     <iframe style= {{borderRadius:"16px"}} src="https://open.spotify.com/embed/playlist/37i9dQZF1EpgGw7nQAGKTa?utm_source=generator&theme=0" width="100%" height="152" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     
   </div>

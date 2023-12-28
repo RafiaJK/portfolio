@@ -36,7 +36,7 @@ function Home() {
       </div>
 
       <div className='home-blurb'>
-        <h4>I'm a results-oriented professional with a diverse background in project management, social media, digital marketing strategy, and technical proficiency in full-stack development.</h4>
+        <h4>With 8 years of experience in digital marketing and design, I have a diverse background in project management, social media, and full-stack development.</h4>
       </div>
 
       <Resume/>
