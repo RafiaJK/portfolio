@@ -3,11 +3,11 @@ import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import img1 from './travel/1.jpeg'
+// import img1 from './travel/1.jpeg'
 import img2 from './travel/2.jpeg'
-import img3 from './travel/3.jpeg'
+// import img3 from './travel/3.jpeg'
 import img4 from './travel/4.jpeg'
-import img5 from './travel/5.jpeg'
+// import img5 from './travel/5.jpeg'
 import img6 from './travel/6.jpeg'
 import img7 from './travel/7.jpeg'
 import img8 from './travel/8.jpeg'

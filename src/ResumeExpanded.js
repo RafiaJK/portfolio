@@ -1,8 +1,7 @@
 import './App.css';
-import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
-import React, { useState } from 'react';
+// import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
 import './resume.css'
-import Skills from './Skills'
+// import Skills from './Skills'
 
 function ResumeExpanded() {
 
@@ -43,7 +42,7 @@ function ResumeExpanded() {
       <h3>Experience:</h3>
       <h4>
         <span class="resume-company">
-          <a href="https://pch.com" target="_blank">Publishers Clearing House</a>
+          <a href="https://pch.com">Publishers Clearing House</a>
         </span>
       </h4>
       <h4>
