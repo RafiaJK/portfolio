@@ -7,6 +7,7 @@ import About from './About';
 import Nav from './Nav';
 import Projects from "./Projects";
 import Socials from './Socials';
+import Services from './Services';
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import './darkTheme.css';
 
@@ -39,6 +40,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/socials" element={<Socials />} />
+              <Route path="/services" element={<Services/>}/>
             </Routes>
           </div>
         </BrowserRouter>
