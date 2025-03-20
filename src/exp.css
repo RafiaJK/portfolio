@@ -1,0 +1,35 @@
+
+:root {
+    --swiper-navigation-size: 80px;
+    --swiper-theme-color: rgb(124, 129, 223);
+}
+
+.swiper{
+    width: 95%;
+}
+
+.swiper-slide{
+    /* margin-left: 40px; */
+}
+
+div.videoSpread video{
+    zoom: 1; /* Trigger hasLayout */
+    width: 31%;
+    margin: 2px;
+    max-height: 400px;
+    /* height: 100%; */
+    vertical-align: top;
+}
+
+div.videoSpread img{
+    zoom: 1; /* Trigger hasLayout */
+    width: 31%;
+    margin: 2px;
+    vertical-align: top;
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #625df5;
+}
+

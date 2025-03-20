@@ -1,7 +1,6 @@
 import './App.css';
 // import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
 import './resume.css'
-// import Skills from './Skills'
 
 function Services() {
 
