@@ -20,6 +20,7 @@
     "react-scripts": "5.0.1",
     "react-swipeable": "^7.0.2",
     "react-type-animation": "^3.0.1",
+    "swiper": "^11.2.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

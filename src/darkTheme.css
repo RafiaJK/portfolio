@@ -11,6 +11,10 @@
     color:rgb(230, 223, 173);
 }
 
+.dark h2{
+    color: goldenrod;
+}
+
 .dark .tech-skills-list{
     background-color: #100e27;
     color: lavender;
@@ -27,4 +31,8 @@
 }
 .light a:hover{
     color:midnightblue;
+}
+
+.light h2{
+    color: midnightblue;
 }
