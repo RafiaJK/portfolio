@@ -19,7 +19,7 @@ function Services() {
 
         <ul className='tech-skills-list'><b>Design</b>
           <li>Branding</li>
-          <li>Social Media</li>
+          <li>Website Design</li>
           <li>UI/UX Design</li>
         </ul>
 

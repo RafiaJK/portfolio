@@ -1,24 +1,24 @@
-.tech-skills-list{
+.tech-skills-list {
     padding-left: 0px;
     text-align: center;
-    list-style:none;
-    width:33%;
+    list-style: none;
+    width: 33%;
     color: rgb(19, 14, 10);
     /* background-color: rgb(240, 232, 253); */
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.112); */
 }
 
-.tech-skills-list li{
+.tech-skills-list li {
     width: auto;
 }
 
-.skills-blocks{
+.skills-blocks {
     display: flex;
-    justify-content:space-evenly
+    justify-content: space-evenly
 }
 
-.pdf-button{
-    position:static;
+.pdf-button {
+    position: static;
     z-index: -2;
     font-size: 1em;
     background-color: lavender;
@@ -29,8 +29,24 @@
     font-weight: bold;
 }
 
-.pdf-button:hover{
-    background-color:darkslateblue;
+.pdf-button:hover {
+    background-color: darkslateblue;
     color: lavender;
     transition: .5s;
+}
+
+@media screen and (max-width: 600px) {
+    .tech-skills-list {
+        width: 100%;
+    }
+
+    .tech-skills-list li {
+        width: auto;
+    }
+
+    .skills-blocks {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
 }
