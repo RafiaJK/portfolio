@@ -10,6 +10,7 @@
 
 .swiper-slide{
     /* margin-left: 40px; */
+    margin-bottom: 40px;
 }
 
 div.videoSpread video{
@@ -26,7 +27,15 @@ div.videoSpread img{
     width: 31%;
     margin: 2px;
     vertical-align: top;
+}
 
+.countdownpch{
+    width:31%;
+    padding-right: 2px;
+}
+
+.winnerpch{
+    width:65%;
 }
 
 .swiper-button-prev, .swiper-button-next {
