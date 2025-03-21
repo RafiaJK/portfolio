@@ -18,7 +18,7 @@
 
 .button-darkmode{
     border-radius: 50%;
-    font-size:larger;
+    font-size: x-large;
     background-color: rgb(16, 14, 39);
     border-style: none;
     transition: 0.5s;
@@ -34,8 +34,13 @@
     height: 100%;
 }
 
+.stylizedsections{
+    width: 100%;
+    display: flex;
+}
+
 .logo {
-    width: 70%;
+    width: 100%;
 }
 
 .menu-icon {
@@ -48,7 +53,7 @@
 
 .navlinks a{
     padding: 1.5em;
-    margin: -1.5em;
+    margin: -1em;
     display: inline-block;
 }
 
@@ -74,10 +79,11 @@
 }
 
 .linkedin-logo{
-    height: 30px;
+    height: 40px;
     display: flex;
-    padding: 1em;
+    padding: 1.5em;
     margin: -1em;
+    align-content: center;
 }
 
 .navlinks ul a.active {
@@ -89,6 +95,11 @@
 @media (max-width: 768px) {
     .navlinks ul li:not(:last-child) {
         margin-right: 30px;
+    }
+
+    .navlinks a{
+        padding: 10px;
+        display: inline-block;
     }
 }
 
@@ -109,8 +120,12 @@
         overflow: hidden;
     }
 
+    .button-darkmode{
+        margin: 10px;
+    }
+
     .navlinks.active {
-        width: 250px;
+        width: 200px;
         position:absolute;
         z-index: 2;
     }
@@ -134,9 +149,21 @@
     }
 
     .navlinks a{
+        padding: .75em;
+        display: inline-block;
+    }
+
+    .linkedin-logo{
+        width: 65%;
+        height: auto;
+        display: flex;
         padding: 1em;
         margin: -1em;
-        display: inline-block;
+    }
+
+    .stylizedsections{
+        width: 100%;
+        display: flex;
     }
 
 }
