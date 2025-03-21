@@ -20,7 +20,7 @@ import winner from './past_work/winnerimg.png'
 function MktgExpCarousel() {
 
 
-    
+
     return (
 
         <Swiper
@@ -32,13 +32,13 @@ function MktgExpCarousel() {
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}              
+            onSlideChange={() => console.log('slide change')}
 
         >
 
 
             <SwiperSlide>
-                
+
                 <h3>
                     <span>Indian Arts | </span> <a href="https://learnwithapprentice.com/" target="_blank">Apprentice</a>
                 </h3>
@@ -93,17 +93,16 @@ function MktgExpCarousel() {
 
 
 
-                <div class="videoSpread">
-                <img src={countdown}/>
-                <video controls>
+                <img src={countdown} className="countdownpch" />
+
+                {/* <video controls>
                         <source src=
                             {champagne}
                             type="video/mp4" />
                         Delivery Day
-                    </video>
-                <img src={winner}/>
+                    </video> */}
+                <img src={winner} className='winnerpch' />
 
-                </div>
 
 
 
