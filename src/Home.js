@@ -37,7 +37,7 @@ function Home() {
       </div>
 
       <div className='home-blurb'>
-        <h2>Currently: 🚀 <a href="learnwithapprentice.com">Apprentice</a> </h2>
+        <h2>Currently: 🚀 <a href="http://www.learnwithapprentice.com" target="_blank">Apprentice</a> </h2>
 
         <h4>I have 8 years of experience in digital marketing and design, as well as a diverse background in project management, social media, and full-stack development.</h4>
       </div>
