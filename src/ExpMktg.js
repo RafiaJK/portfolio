@@ -91,10 +91,7 @@ function MktgExpCarousel() {
                     <li>Created video and graphic promos, countdowns, and interactive content to build excitement leading up to prize deliveries.</li>
                 </ul>
 
-
-
                 <img src={countdown} className="countdownpch" />
-
                 {/* <video controls>
                         <source src=
                             {champagne}
@@ -102,10 +99,6 @@ function MktgExpCarousel() {
                         Delivery Day
                     </video> */}
                 <img src={winner} className='winnerpch' />
-
-
-
-
             </SwiperSlide>
 
             {/* <SwiperSlide>
