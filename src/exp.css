@@ -1,7 +1,13 @@
 
 :root {
-    --swiper-navigation-size: 80px;
-    --swiper-theme-color: rgb(124, 129, 223);
+    --swiper-navigation-size: 40px;
+    --swiper-theme-color: hsl(237, 61%, 68%);
+    --swiper-navigation-top-offset: 5%;
+
+}
+
+h3 {
+    text-align: center;
 }
 
 .swiper{
@@ -42,3 +48,8 @@ div.videoSpread img{
     color: #625df5;
 }
 
+@media screen and (max-width: 600px) {
+    :root {
+        --swiper-navigation-size: 0px;
+    }
+  }
