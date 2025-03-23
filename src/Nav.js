@@ -8,6 +8,8 @@ import github_logo from './github_logo.png';
 import about from './nav_imgs/about.png'
 import projects from './nav_imgs/projects.png'
 import resume from './nav_imgs/resume.png'
+import firstname from './nav_imgs/firstname.png'
+
 import './darkTheme.css';
 
 function Nav({toggleTheme, theme}) {
@@ -33,6 +35,7 @@ function Nav({toggleTheme, theme}) {
       <div className="logo">
         <Link to="/"> 
         <img class="rk-logo"src={full_logo}/>
+        <img class="rk-logo-mobile"src={firstname}/>
        </Link>
       </div>
 
