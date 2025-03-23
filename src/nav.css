@@ -16,6 +16,10 @@
     overflow: hidden;
 }
 
+.rk-logo-mobile{
+    display:none;
+}
+
 .button-darkmode{
     border-radius: 50%;
     font-size: x-large;
@@ -127,12 +131,38 @@
     .navlinks ul{
         align-items: center;
     }
+
+    .rk-logo{
+        display:none;
+    }
+
+    .rk-logo-mobile{
+        display:block;
+        height: 4em;
+        padding-left: 1em;
+    }
+
+    .button-darkmode{
+        margin-left: 1.5em;
+
+    }
+
 }
 
 @media (max-width: 600px) {
     .menu-icon {
         display: block;
         cursor: pointer;
+    }
+
+    .rk-logo{
+        display:none;
+    }
+
+    .rk-logo-mobile{
+        display:block;
+        height: 4em;
+        padding-left: 1em;
     }
 
     .navlinks {
@@ -148,6 +178,7 @@
 
     .button-darkmode{
         margin: 10px;
+        margin-right: 20px;
     }
 
     .navlinks.active {
