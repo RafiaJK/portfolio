@@ -138,13 +138,12 @@
 
     .rk-logo-mobile{
         display:block;
-        height: 4em;
+        height: 3.5em;
         padding-left: 1em;
     }
 
     .button-darkmode{
         margin-left: 1.5em;
-
     }
 
 }
@@ -156,13 +155,11 @@
     }
 
     .rk-logo{
-        display:none;
+        display:block;
     }
 
     .rk-logo-mobile{
-        display:block;
-        height: 4em;
-        padding-left: 1em;
+        display:none;
     }
 
     .navlinks {
