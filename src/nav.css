@@ -9,7 +9,7 @@
 }
 
 .rk-logo{
-    width: 80%;
+    width: 90%;
     float: left;
     position: relative;
     margin: 15px 15px 15px 10px;
@@ -25,7 +25,7 @@
   }
 
 .nav-container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
