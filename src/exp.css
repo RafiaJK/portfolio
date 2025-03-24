@@ -1,6 +1,6 @@
 
 :root {
-    --swiper-navigation-size: 40px;
+    --swiper-navigation-size: 35px;
     --swiper-theme-color: hsl(237, 61%, 68%);
     --swiper-navigation-top-offset: 5%;
 
@@ -46,6 +46,10 @@ div.videoSpread img{
 
 .swiper-button-prev, .swiper-button-next {
     color: #625df5;
+}
+
+.apprenticeSite {
+    width:100%;
 }
 
 @media screen and (max-width: 600px) {
