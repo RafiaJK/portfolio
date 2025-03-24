@@ -19,7 +19,7 @@ function DesignExpCarousel() {
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
-            slidesPerView={2}
+            slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
@@ -27,23 +27,25 @@ function DesignExpCarousel() {
             onSlideChange={() => console.log('slide change')}
         >
 
-
-
             <SwiperSlide>
                 <h3>
                     <span> Apprentice | </span> <a href="https://learnwithapprentice.com/" target="_blank">Homepage</a>
                 </h3>
                 <h4>
-                    Canva, Hubspot
+                    Built using Hubspot & Canva.
                 </h4>
+
                 <ul>
-                    <li>more.</li>
-                    <li>more.</li>
+                    <li> <b>Engaging Visuals</b> Incorporating vibrant infographics, the page establishes relevant information that reflects the platform’s educational and community-driven focus.</li>
+
+                    <li><b>Intuitive Navigation</b> The platform features a straightforward layout with clear calls-to-action, enabling users to easily access desired sections.</li>
+
+                    <li><b>Cohesive Branding</b> The UI maintains a consistent color palette, typography, and design elements to effectively capture user attention. </li>
                 </ul>
             </SwiperSlide>
 
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
                 <h3>
                     <span> Apprentice | </span> <a href=" " target="_blank">Pro Landing Pages</a>
                 </h3>
@@ -54,24 +56,6 @@ function DesignExpCarousel() {
                     <li>more.</li>
                     <li>more.</li>
                 </ul>
-            </SwiperSlide>
-
-
-            <SwiperSlide>
-                <h3>
-                    <span> Apprentice | </span> <a href="https://app.learnwithapprentice.com/" target="_blank">App Onboarding</a>
-                </h3>
-                <h4>
-                    Flutterflow, Figma
-                </h4>
-                <ul>
-                    <li>more.</li>
-                    <li>more.</li>
-                </ul>
-            </SwiperSlide>
-
-            {/* <SwiperSlide>
-                slide 4
             </SwiperSlide> */}
 
         </Swiper>
