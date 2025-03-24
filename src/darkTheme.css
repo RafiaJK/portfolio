@@ -1,6 +1,8 @@
 .dark {
     background-color: rgb(16, 14, 39);
     color: #fff;
+    transition: background-color 0.7s ease, color 0.7s ease;
+
 }
 
 .dark a:hover{
@@ -24,6 +26,8 @@
 .light {
     background-color: #fff;
     color: rgb(16, 14, 39);
+    transition: background-color 0.7s ease, color 0.7s ease;
+
 }
 
 .light a{
