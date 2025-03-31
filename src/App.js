@@ -36,7 +36,7 @@ function App() {
           <div className="content-container">
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route path="/resume" element={<> <ResumeExpanded/><Resume /> </>} />
+              <Route path="/resume" element={<> <ResumeExpanded/> <Resume /> </>} />
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/socials" element={<Socials />} />

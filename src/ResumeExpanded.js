@@ -1,43 +1,14 @@
 import './App.css';
-// import Rafia_Khandaker_Resume from './Rafia_Khandaker_Resume.pdf';
 import './resume.css'
-// import Skills from './Skills'
+
+import badge from './Asana workflow specialist badge.png'
 
 function ResumeExpanded() {
 
   return (
     <div className="Resume">
       <h1>Resume</h1>
-      
-      {/* <h3>Skills:</h3>
-      <div className="skills-blocks">
-        <ul className="tech-skills-list"><b>Developer:</b>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Ruby</li>
-          <li>Rails</li>
-          <li>Sinatra</li>
-          <li>SQL</li>
-        </ul>
 
-        <ul className='tech-skills-list'><b>Design:</b>
-          <li>HTML/CSS</li>
-          <li>Figma</li>
-          <li>Lightroom</li>
-          <li>Illustrator</li>
-          <li>Photoshop</li>
-          <li>Canva</li>
-        </ul>
-
-        <ul className='tech-skills-list'><b>Social Media:</b>
-
-          <li>Google Analytics</li>
-          <li>Sentiment Analysis</li>
-          <li>Khoros</li>
-          <li>Pinterest Analytics</li>
-          <li>Meta Business Suite</li>
-        </ul>
-      </div> */}
 
       <h2>Experience</h2>
 
@@ -50,10 +21,11 @@ function ResumeExpanded() {
         <span>Marketing Lead |</span> 2024-Present
       </h4>
       <ul>
-        <li>Managed end-to-end creative projects for social media and offline marketing, overseeing content creation, campaign execution, and brand consistency across multiple channels.</li>
-        <li>Launched and optimized Google Ads and Meta (Facebook & Instagram) campaigns to drive user acquisition and brand awareness.</li>
-        <li>Built and managed the company website through HubSpot, creating custom landing pages for promotions and a marketplace for users.</li>
-        <li>Designed and developed the user onboarding experience using Figma and FlutterFlow.</li>
+        <li>Led the end-to-end development of the company’s digital presence from inception, handling design, marketing, and growth strategy.</li>
+        <li>Managed all social media and offline marketing, overseeing content creation, campaign execution, and brand consistency across multiple channels.</li>
+        <li>Launched and optimized Google Ads and Meta (Facebook & Instagram) campaigns to drive early user acquisition and brand awareness.</li>
+        <li>Developed the company website from scratch through HubSpot, creating custom landing pages for promotions and a marketplace for users.</li>
+        <li>Designed and built onboarding screens for the app using Figma and FlutterFlow to create a seamless user experience.</li>
       </ul>
 
       <h4>
@@ -91,6 +63,16 @@ function ResumeExpanded() {
       <h4>Stony Brook University</h4>
       <p>Bachelors Of Science in Information Systems, Specialization in Business & Economics</p>
 
+
+      <h2>Certifications</h2>
+      <h4>Asana Workflow Specialist</h4>
+      <i>Collaborative Work Management Certification</i>
+      <p>Learned to design and implement enterprise-level workflows for a team, as well as research-backed change management strategies to ensure teams adopt new workflows.</p>
+      <a href='https://certifications.asana.com/de8ea9f1-c723-4277-9136-2b635cf2bc18' target='blank'> <img src={badge} /> </a>
+
+      {/* resume pdf button in app.js */}
+      <br></br> <br></br>
+      <h2>Take a resume to go:</h2>
     </div>
   );
 }
