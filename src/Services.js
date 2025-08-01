@@ -11,22 +11,22 @@ function Services() {
 
 
       <div className="skills-blocks">
-      <ul className='tech-skills-list'><b>Marketing</b>
+      <ul className='tech-skills-list'><b>❤️ Marketing</b>
           <li>Social Media Management</li>
           <li>Content Creation & Copywriting</li>
           <li>Digital Marketing Strategy</li>
         </ul>
 
-        <ul className='tech-skills-list'><b>Design</b>
+        <ul className='tech-skills-list'><b>🎨 Design</b>
           <li>Branding</li>
           <li>Website Design</li>
           <li>UI/UX Design</li>
         </ul>
 
-        <ul className='tech-skills-list'><b>Analytics</b>
-          <li>Marketing Analytics</li>
+        <ul className='tech-skills-list'><b>📈 Analytics</b>
+          <li>Meta Ads</li>
           <li>Sentiment Analysis</li>
-          <li>Conversion Rate Optimization</li>
+          <li>Google Analytics</li>
         </ul>
 
       </div>
