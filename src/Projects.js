@@ -8,8 +8,7 @@ function Projects() {
 
     return (
         <div className="Projects">
-            <h2>Jump to:</h2>
-            <h3> <a href="#webdesign">Web Design</a> | <a href="#socialmedia"> Social Media </a> | <a href="#swe">Software Engineering </a></h3>
+            <h2>Jump to: <a href="#webdesign">Web Design</a> | <a href="#socialmedia"> Social Media </a> | <a href="#swe">Software Engineering </a></h2>
 
 
 
