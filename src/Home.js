@@ -18,7 +18,7 @@ function Home() {
       <TypeAnimation className='typing-animation'
         sequence={[
           'I am a Digital Marketer.', 1500,
-          'I am a Social Media Expert.', 2000, // Waits 2s
+          'I am a Social Media Strategist.', 2000, // Waits 2s
           () => {
             console.log('Sequence completed'); // Place optional callbacks anywhere in the array
           }

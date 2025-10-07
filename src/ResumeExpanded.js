@@ -7,8 +7,6 @@ function ResumeExpanded() {
 
   return (
     <div className="Resume">
-      <h1>Resume</h1>
-
 
       <h2>Experience</h2>
 
@@ -21,11 +19,15 @@ function ResumeExpanded() {
         <span>Marketing Lead |</span> 2024-Present
       </h4>
       <ul>
-        <li>Led the end-to-end development of the company’s digital presence from inception, handling design, marketing, and growth strategy.</li>
-        <li>Managed all social media and offline marketing, overseeing content creation, campaign execution, and brand consistency across multiple channels.</li>
-        <li>Launched and optimized Google Ads and Meta (Facebook & Instagram) campaigns to drive early user acquisition and brand awareness.</li>
-        <li>Developed the company website from scratch through HubSpot, creating custom landing pages for promotions and a marketplace for users.</li>
-        <li>Designed and built onboarding screens for the app using Figma and FlutterFlow to create a seamless user experience.</li>
+        <li>Developed and implemented marketing roadmaps, brand positioning, and social content pillars to strengthen the
+startup’s brand identity and streamline campaign execution.</li>
+        <li>Designed onboarding flows, landing pages, and community engagement strategies, activating 100+ instructors and
+learners through events, resources, and outreach.</li>
+        <li>Launched and optimized Google Search campaigns driving 6.5K+ impressions with CTRs up to 7.3% and CPCs as low as
+$0.18, outperforming benchmarks.</li>
+        <li>Managed Meta Ads campaigns with 15K+ impressions and averaging 6.7K reach per campaign, achieving
+cost-per-result as low as $0.40.</li>
+
       </ul>
 
       <h4>
@@ -37,11 +39,17 @@ function ResumeExpanded() {
         <span>Social Media Manager |</span> 2018-2022
       </h4>
       <ul>
-        <li>Achieved a 100% boost in year-over-year Instagram performance in impressions and
-          engagement, along with a 50% rise in video views and 20% growth in followers through
-          data-driven strategies and targeted adjustments.</li>
-        <li>Elevated brand presence by overhauling visuals and crafting compelling narratives, resulting in a substantial increase in social media followers across major platforms (Instagram, Facebook, Twitter, YouTube, Pinterest).</li>
-        <li>Proactively addressed customer service concerns in collaboration with product owners, preempting issues ahead of new promotions and attending to user queries effectively.</li>
+        <li>Grew organic Instagram engagement 100% YoY and increased followers by 20% through data-supported content
+strategies and influencer partnerships.</li>
+<li>Owned reporting for multi-platform campaigns, monitoring KPIs such as engagement, reach, CTR, and conversions;
+produced monthly and ad hoc reports for leadership.</li>
+<li>Led national promotional campaigns and daily content calendars across Facebook, Instagram, and YouTube for a digital
+audience of 5M+, producing campaign briefs, copy, and creative assets.</li>
+        <li>Managed community engagement for national campaigns, including an annual multichannel initiative with St. Jude
+Children’s Research Hospital that surpassed donation goals.</li>
+
+        <li>Responded to social posts coordinating customer support escalations, improving response time and audience
+sentiment, in a consistent brand voice.</li>
         <li>Spearheaded creative campaigns for e-commerce promotions on Facebook Shops, alongside  managing A/B testing for acquisition initiatives.</li>
         <li>Mentored interns on analytics tools and trend research, providing hands-on training for optimal execution and fostering a culture of continuous learning and development.</li>
       </ul>

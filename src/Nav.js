@@ -60,9 +60,9 @@ function Nav({toggleTheme, theme}) {
 
         <div className={`navlinks ${showNav && 'active'}`} onClick={toggleNav}>
           <ul>
-            <li><Link to="/projects"> <img src={projects} className='stylizedsections'/> </Link></li>
-            {/* <li><Link to="/about"> ABOUT </Link></li> */}
+            <li><Link to="/projects"> <img src={projects} className='stylizedsections'/> </Link></li>            
             <li><Link to="/resume"> <img src={resume} className='stylizedsections'/> </Link></li>
+
             <li><Link to="https://www.linkedin.com/in/rafiakhandaker/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" className='linkedin-logo'/></Link></li>    
             <li><Link to="https://github.com/RafiaJK/" target="_blank"><img src={github_logo} className='linkedin-logo'/> </Link></li>                            
                         
