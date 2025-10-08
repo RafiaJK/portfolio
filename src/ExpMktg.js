@@ -19,7 +19,17 @@ import winner from './past_work/winnerimg.png'
 
 function MktgExpCarousel() {
 
+    const demoStyle = {
+        position: 'relative',
+        paddingBottom: '30%',
+        height: 0,
+    }
 
+    const demoFullSize = {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+    }
 
     return (
 
@@ -43,12 +53,11 @@ function MktgExpCarousel() {
                     <span>Indian Arts | </span> <a href="https://learnwithapprentice.com/" target="_blank">Apprentice</a>
                 </h3>
                 <h4>
-                    Campaign to bring in new learners and teachers in traditional Indian music & dance.
+                    Paid campaign to bring in new learners and teachers in traditional Indian music & dance.
                 </h4>
 
                 <ul>
-                    <li>Designed Meta ads featuring traditional instruments, dance, and cooking, along with a tailored landing page for audience engagement.</li>
-                    <li>Launched aligning promotions with Hindu holidays for cultural relevance.</li>
+                    <li>Designed Meta ads along with tailored landing pages, aligning promotions with Hindu holidays.</li>
                 </ul>
 
                 <div class="videoSpread">
@@ -80,40 +89,34 @@ function MktgExpCarousel() {
 
             <SwiperSlide>
                 <h3>
-                    <span>Prize Delivery Promotion | </span> <a href="hhttps://www.pch.com/" target="_blank">PCH</a>
+                    <span>Prize Delivery Promotion | </span> <a href="https://www.instagram.com/pchofficial" target="_blank">PCH Instagram</a>
                 </h3>
 
                 <h4>
-                    Event promotion and coverage on the road as the Prize Patrol located and awarded giveaway winners.
+                    Organic social event promotion and coverage on the road as the Prize Patrol located and awarded giveaway winners.
                 </h4>
                 <ul>
                     <li>Led real-time social coverage, including day-of clues, on-the-road updates, and engaging storytelling around winner announcements.</li>
-                    <li>Created video and graphic promos, countdowns, and interactive content to build excitement leading up to prize deliveries.</li>
                 </ul>
 
                 <img src={countdown} className="countdownpch" />
-                {/* <video controls>
-                        <source src=
-                            {champagne}
-                            type="video/mp4" />
-                        Delivery Day
-                    </video> */}
                 <img src={winner} className='winnerpch' />
             </SwiperSlide>
 
-            {/* <SwiperSlide>
+            <SwiperSlide>
                 <h3>
-                    <span>PCH & St. Jude Children's Research Hospital | </span> <a href="https://youtube.com/playlist?list=PLuZuPJ2cOxw0CbZFPl4HThhi-NzTHDClX&si=Hy1ut6NDz825Ynrk" target="_blank">The Giveback</a>
+                    <span>PCH: The Giveback | </span> <a href="https://youtube.com/playlist?list=PLuZuPJ2cOxw0CbZFPl4HThhi-NzTHDClX&si=Hy1ut6NDz825Ynrk" target="_blank">YouTube Playlist</a>
                 </h3>
                 <h4>
-                    Annual fundraiser to raise awareness and funds in the fight against childhood cancer.
+                    Annual fundraiser with St Jude Children's Research Hospital to raise awareness and funds in the fight against childhood cancer.
                 </h4>
                 <ul>
-                    <li>Managed social media output for Publishers Clearing House’s partnership with St. Jude Children's Research Hospital, driving engagement and awareness for donations.</li>
                     <li>Collaborated with St. Jude’s brand team, video talent, copywriters, designers, and legal to execute campaigns, including promoting a virtual walk/run fundraiser.</li>
                 </ul>
-            </SwiperSlide> */}
 
+                <div style={demoStyle} className="demo-video">  <iframe src="https://www.youtube.com/embed/CLZB_09VvRQ?si=7pPvvtsH_I07UtHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style={demoFullSize}></iframe></div>
+                {/* <iframe src="https://www.youtube.com/embed/zsgjDhWO0fk?si=lup9hPWE50Ud6gx8" className="giveback" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+            </SwiperSlide>
 
 
 
