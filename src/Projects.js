@@ -10,7 +10,7 @@ function Projects() {
         <div className="Projects">
             <h2>Jump to: <a href="#webdesign">Web Design</a> | <a href="#socialmedia"> Social Media </a> | <a href="#swe">Software Engineering </a></h2>
 
-
+            <br></br>
 
             <h2 id="webdesign">Web Design</h2>
             <ExpDesign />

@@ -44,7 +44,7 @@ function Home() {
 
         <h2>Currently: 🚀 <a href="http://www.learnwithapprentice.com" target="_blank">Apprentice</a> </h2>
       
-        <h4>At Apprentice, I'm helping early stage startups take off through content marketing, brand development, and launching data-backed campaigns. I have led multiple product pivots, redefined the brand persona, and built a creator marketplace that brought mentors and learners together in real life. </h4>
+        <h4>At Apprentice, I'm helping early stage startups and hobbyist teachers take off through personalized content marketing guidance and brand development. I have led multiple product pivots, redefined the brand persona, and built a creator marketplace that brought mentors and learners together in real life. </h4>
 
         <hr></hr>
 

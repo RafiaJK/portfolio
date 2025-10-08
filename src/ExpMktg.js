@@ -19,7 +19,17 @@ import winner from './past_work/winnerimg.png'
 
 function MktgExpCarousel() {
 
+    const demoStyle = {
+        position: 'relative',
+        paddingBottom: '30%',
+        height: 0,
+    }
 
+    const demoFullSize = {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+    }
 
     return (
 
@@ -79,7 +89,7 @@ function MktgExpCarousel() {
 
             <SwiperSlide>
                 <h3>
-                    <span>Prize Delivery Promotion | </span> <a href="hhttps://www.pch.com/" target="_blank">PCH</a>
+                    <span>Prize Delivery Promotion | </span> <a href="https://www.instagram.com/pchofficial" target="_blank">PCH Instagram</a>
                 </h3>
 
                 <h4>
@@ -95,7 +105,7 @@ function MktgExpCarousel() {
 
             <SwiperSlide>
                 <h3>
-                    <span>PCH & St. Jude Children's Research Hospital | </span> <a href="https://youtube.com/playlist?list=PLuZuPJ2cOxw0CbZFPl4HThhi-NzTHDClX&si=Hy1ut6NDz825Ynrk" target="_blank">The Giveback</a>
+                    <span>PCH: The Giveback | </span> <a href="https://youtube.com/playlist?list=PLuZuPJ2cOxw0CbZFPl4HThhi-NzTHDClX&si=Hy1ut6NDz825Ynrk" target="_blank">YouTube Playlist</a>
                 </h3>
                 <h4>
                     Annual fundraiser with St Jude Children's Research Hospital to raise awareness and funds in the fight against childhood cancer.
@@ -104,10 +114,9 @@ function MktgExpCarousel() {
                     <li>Collaborated with St. Jude’s brand team, video talent, copywriters, designers, and legal to execute campaigns, including promoting a virtual walk/run fundraiser.</li>
                 </ul>
 
-                <iframe src="https://www.youtube.com/embed/CLZB_09VvRQ?si=7pPvvtsH_I07UtHq" className="giveback" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/zsgjDhWO0fk?si=lup9hPWE50Ud6gx8" className="giveback" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div style={demoStyle} className="demo-video">  <iframe src="https://www.youtube.com/embed/CLZB_09VvRQ?si=7pPvvtsH_I07UtHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style={demoFullSize}></iframe></div>
+                {/* <iframe src="https://www.youtube.com/embed/zsgjDhWO0fk?si=lup9hPWE50Ud6gx8" className="giveback" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
             </SwiperSlide>
-
 
 
 
