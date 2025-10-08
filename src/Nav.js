@@ -60,6 +60,7 @@ function Nav({toggleTheme, theme}) {
 
         <div className={`navlinks ${showNav && 'active'}`} onClick={toggleNav}>
           <ul>
+            <li></li>
             <li><Link to="/projects"> <img src={projects} className='stylizedsections'/> </Link></li>            
             <li><Link to="/resume"> <img src={resume} className='stylizedsections'/> </Link></li>
 
